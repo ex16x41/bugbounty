@@ -1,6 +1,6 @@
-## Discover web app frameworks and their exposures (low, medium, high, critical) for bug bounties.
+# Discover web app frameworks and their exposures (low, medium, high, critical) for bug bounties.
 
-# Table of Web Frameworks by priority
+## Table of Web Frameworks by priority
 
 | Web Framework | Method | Source|
 |-----:|---------------:|---------------|
@@ -19,7 +19,7 @@
 | N/A |    N/A    |   N/A        | 
 | N/A |    N/A    |   N/A        | 
 
-# Triggering exceptions (Improper Error Handling - OWASP)
+## Triggering exceptions (Improper Error Handling - OWASP)
 
 | Type | Method|
 |-----:|---------------:|
