@@ -52,11 +52,11 @@
 ## Laravel:
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
 
-## Laravel:
-IMG
+## Symfony 1:
+![error](https://github.com/ex16x41/bugbounty/assets/44981946/c7adac05-c24f-4fc7-951d-4e2ad433081c)
 
-## Laravel:
-IMG
+## Symfony 2:
+![exceptions-in-dev-environment](https://github.com/ex16x41/bugbounty/assets/44981946/eea554ff-0c05-4e29-9bab-43db25f9180c)
 
 ## Laravel:
 IMG
