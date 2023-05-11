@@ -15,7 +15,7 @@
 | Flask    |       Manual Testing    |   Burpsuite & Web Manual         | 
 | ASP.NET  |     Manual Testing    |   Burpsuite & Web Manual    | 
 | Yii |     "exception" + "play slick" (TBD)   |   N/A        | 
-| Generic Method 1 (mass)|  site:.tld1.wildcard OR site:wildcard.com "unexpected error" OR "Uncaught Exception" OR "fatal error" OR "Unknown column"     |  google.com       | 
+| Generic Method 1 (mass)|  site:.tld1.wildcard OR site:wildcard.tld "unexpected error" OR "Uncaught Exception" OR "fatal error" OR "Unknown column"     |  google.com       | 
 | Generic Method 1 (targeted) |    N/A    |   N/A        | 
 | N/A |    N/A    |   N/A        | 
 | N/A |    N/A    |   N/A        | 
