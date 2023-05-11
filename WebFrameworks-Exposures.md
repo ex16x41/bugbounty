@@ -65,6 +65,10 @@
 
 7.Doctrine\DBAL\Exception: This exception is thrown by the Doctrine database abstraction layer, which is used by Symfony to interact with databases. It is typically caused by a database-related error, such as a missing table or a syntax error in a SQL query.
 
+
+## Keywords to check inside exceptions (because webf may be config'd with these below)
+redis, API, DB, mysql, path, server, database, username, password, key, secret
+
 ## Laravel: High or Critical Priority
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
 
