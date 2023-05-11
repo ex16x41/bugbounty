@@ -35,10 +35,15 @@
 | Method | Detail if available|
 |-----:|---------------:|
 |    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage) | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
+|   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
+|    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage) | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
+|    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage) | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
+|    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage) | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
+|    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage) | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
 |Brute-Force | TBD|  
-|    DNS caching | TBD  |
-| Reverse IP lookup (Bing Reverse IP) | TBD  | 
-|    Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+|DNS caching | TBD  |
+|Reverse IP lookup (Bing Reverse IP) | TBD  | 
+|Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
 
 
 
