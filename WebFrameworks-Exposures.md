@@ -1,8 +1,8 @@
-# Types of XSS 
+# Table 
 
 | By Priority| 
 | ------------- |
-| **Stored** - stored on the target server, often in a database. When a user visits a page containing the stored script, it gets executed in their browser. **e.g., blog, cms comment section** | 
+| Laravel (X framework) | Dork | 
 | **Blind xss (part of persistant)** Blind cross-site scripting is similar to stored cross-site scripting, but in a blind XSS attack, the web application stores the payload sent by an attacker and only executes it later – at a different time, in a different place, or possibly even in another web application.  - https://www.acunetix.com/websitesecurity/detecting-blind-xss-vulnerabilities/ Example of web applications and web pages where blind XSS attacks can occur: Contact/Feedback pages, Log viewers, Exception handlers, Chat applications / forums, Customer ticket applications, Web Application Firewalls, Any application that requires user moderation  | 
 | **Reflected** -when a user clicks on a malicious link or submits a form containing the script, which is then immediately reflected back and executed in the user’s browser. **e.g., via url parameter** | 
 | DOM - TBD | 
