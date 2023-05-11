@@ -14,6 +14,17 @@ Dumpster Diver
 S3 Bucket Finder
 S3Scanner
 
+Identifying S3 Buckets
+
+ There Are various ways to identify S3 buckets few of which are
+
+    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage)
+    Brute-Force
+    Google Dorking
+    DNS caching
+    Reverse IP lookup (Bing Reverse IP)
+    Tools on GitHub
+
 AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
 
 Misconfigured AWS S3 buckets that leave unauthorized access are thus abused by attackers to compromise the privacy of the data stored in those buckets breaching the privacy of millions of users around the world. If the case misconfigured S3 Bucket contains EC2 snapshot instances, then attackers might be able to retrieve the snapshot instance and then get security keys for the EC2 instance itself. 
