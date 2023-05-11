@@ -53,7 +53,9 @@
 | Overly permissive IAM policies | AWS Identity and Access Management (IAM) allows you to control access to your AWS resources. If IAM policies are too permissive, users may have more access than they need, potentially allowing them to access S3 buckets that they shouldn't be able to.  |
 |  Misconfigured bucket policies  | S3 bucket policies define the permissions for a bucket, including who can access it and what they can do with its contents. If these policies are misconfigured or too permissive, attackers may be able to gain unauthorized access to sensitive data.  |
 |   Lack of encryption | If data stored in S3 buckets is not encrypted, it may be vulnerable to interception or theft. S3 supports several types of encryption, including server-side encryption and client-side encryption. |
-|Brute-Force | TBD|  
+|Insecure pre-signed URLs | S3 allows users to generate pre-signed URLs that grant temporary access to specific objects or resources. If these URLs are leaked or improperly secured, attackers may be able to use them to access sensitive data.|  
+|Cross-origin resource sharing (CORS) misconfiguration | If CORS settings are misconfigured, attackers may be able to bypass same-origin policy protections and access data stored in S3 buckets.|  
+
 
 AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
 
