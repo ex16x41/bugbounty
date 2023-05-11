@@ -49,7 +49,7 @@
 
 | Method | Detail if available|
 |-----:|---------------:|
-|    HTML inspection & JS files | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
+| Public access | One of the most common issues is when S3 buckets are set to public access, meaning that anyone on the internet can access the contents of the bucket. This can happen if the bucket is created with default settings or if the access control list (ACL) is misconfigured.  |
 |   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
 |  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
 |   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
