@@ -2,8 +2,13 @@
 
 ## Sources for external search (osint only)
 
-1. https://osint.sh/buckets/
+1. https://osint.sh/buckets/ - a little better than grayhat because not limited to filtering by filetype (no reg req) 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/ef73ae2b-67e6-4e02-b418-0873517125a1)
+
 2. https://buckets.grayhatwarfare.com/
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/f9c53007-c327-4d08-b0cc-3aa520ed650b)
 
 
 
