@@ -32,22 +32,18 @@
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
 |Application| Try access host via IP, may trigger this also  | 
 
-## Flask: Type of Errors
-1."TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
+## Laravel: Type of Errors
+1.HttpException: This exception is thrown when an HTTP error occurs, such as a 404 Not Found or 500 Internal Server Error. It is the base class for all HTTP-related exceptions in Laravel.
 
-2."NameError": indicates that a variable or function name was not defined.
+2.ValidationException: This exception is thrown when a form validation fails in Laravel. It contains information about the validation errors and can be used to redirect the user back to the form with the validation errors displayed.
 
-3."KeyError": indicates that a key used to access a dictionary does not exist.
+3.ModelNotFoundException: This exception is thrown when a model is not found in the database. It is commonly used to handle 404 errors when a requested resource is not found in the database.
 
-4."ValueError": indicates that an argument passed to a function or method is invalid.
+4.QueryException: This exception is thrown when a database query fails, such as when there is a syntax error or a constraint violation. It contains information about the SQL error that caused the query to fail.
 
-5."AttributeError": indicates that an attribute or method does not exist for an object.
+5.AuthenticationException: This exception is thrown when a user is not authenticated and tries to access a protected resource in Laravel. It can be used to redirect the user to the login page or to display a custom error message.
 
-6."SyntaxError": indicates that there is a problem with the syntax of the code.
-
-7."IndentationError": indicates that there is a problem with the indentation of the code.
-
-8."ImportError": indicates that there is a problem importing a module or package 
+6.AuthorizationException: This exception is thrown when a user is not authorized to access a particular resource or perform a particular action. It can be used to redirect the user to a custom error page or to display a custom error message.
 
 ## Symfony: Type of Errors
 1.InvalidArgumentException: This exception is thrown when an argument passed to a function or method is not valid.
@@ -63,6 +59,7 @@
 6.Twig_Error_Runtime: This exception is thrown by the Twig template engine, which is used by Symfony to render templates. It is typically caused by a syntax error or a missing variable in a template.
 
 7.Doctrine\DBAL\Exception: This exception is thrown by the Doctrine database abstraction layer, which is used by Symfony to interact with databases. It is typically caused by a database-related error, such as a missing table or a syntax error in a SQL query.
+
 
 ## Django: Type of Errors
 1.TemplateSyntaxError: This error is thrown when there is a syntax error in a Django template. This error can occur when a developer forgets to close a tag or uses incorrect syntax in a template.
