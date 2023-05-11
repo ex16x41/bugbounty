@@ -20,10 +20,11 @@
 | Type | Method|
 |-----:|---------------:|
 |Web Server |Search for random files and folders that will not be found (404s)      |
-| Try to request folders that exist and see the server behavior (403s, blank page, or directory listing).  |  
-|Search for random files and folders that will not be found (404s).|  
-| Try to request folders that exist and see the server behavior (403s, blank page, or directory listing).  |  
-
+|Web Server | Try to request folders that exist and see the server behavior (403s, blank page, or directory listing).  |  
+|Web Server | send a very large path, break the headers format, or change the HTTP version.     |
+|Application | Identify possible input points where the application is expecting data.  | 
+|Application|Analyse the expected input type (strings, integers, JSON, XML, etc.). |
+|Application| Fuzz every input point based on the previous steps to have a more focused test scenario.   | 
 
 ## FLASK:
 1."TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
