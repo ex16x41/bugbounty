@@ -1,4 +1,4 @@
-# Discover vuln(ver)/exposed/misconfig'd s3 bucketsMy hunting methodlogy
+# Discover vuln(ver)/exposed/misconfig'd s3 buckets {My hunting methodlogy}
 
 ## Sources for external search (osint only)
 
