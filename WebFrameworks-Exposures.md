@@ -67,7 +67,8 @@
 
 
 ## Keywords to check inside exceptions (because webf may be config'd with these below)
-redis, API, DB, mysql, AD, path, server, database, username, password, key, secret
+redis, API, DB, mysql, AD, path, server, database, username, password, key, secret, backend, admin, dir, port, URI, 
+
 
 ## Laravel: High or Critical Priority
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
