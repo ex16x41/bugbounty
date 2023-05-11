@@ -45,9 +45,15 @@
 
 
 
+## Misconfiguration Types to look for
 
-    
-
+| Method | Detail if available|
+|-----:|---------------:|
+|    HTML inspection & JS files | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
+|   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
+|  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
+|   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
+|Brute-Force | TBD|  
 
 AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
 
