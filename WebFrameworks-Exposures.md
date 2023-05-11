@@ -13,6 +13,7 @@
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 | Flask    |       Manual Testing    |   Burpsuite        | 
 | ASP.NET  |     Manual Testing    |   Burpsuite        | 
+| Play Framework |     Manual Testing    |   Burpsuite        | 
 
 # Triggering exceptions (Improper Error Handling - OWASP)
 
