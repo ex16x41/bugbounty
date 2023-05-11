@@ -12,7 +12,6 @@
 | Django (credit fattselimi)   |    http.title:”DisallowedHost at /”      |   shodan.com         |
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 | Flask    |       Manual Testing    |   Burpsuite        | 
-| Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 | ASP.NET  |     Manual Testing    |   Burpsuite        | 
 
 # Triggering exceptions (Improper Error Handling - OWASP)
