@@ -15,6 +15,13 @@
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 
+# Triggering exceptions (Improper Error Handling - OWASP)
+
+| Method |
+|-----:|
+|Laravel (PHP)|  
+|  Symfony (PHP) Method 1  |  
+
 
 ## FLASK:
 1."TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
