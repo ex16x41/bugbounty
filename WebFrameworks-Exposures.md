@@ -61,8 +61,8 @@
 ## Django:
 ![error_movies_not_imported_in_views](https://github.com/ex16x41/bugbounty/assets/44981946/bfb3d386-b45a-4855-842c-bc6ba9a63830)
 
-## Laravel:
-IMG
+## ASP.NET:
+![Tuee5](https://github.com/ex16x41/bugbounty/assets/44981946/c80b6d8b-dd15-4c3a-8ffe-3d432ebc52cb)
 
-## Laravel:
+## RUBY:
 IMG
