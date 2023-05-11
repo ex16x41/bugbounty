@@ -1,3 +1,7 @@
+External (OSINT) S3 Search 
+https://osint.sh/buckets/
+https://buckets.grayhatwarfare.com/
+
 How to find S3 Buckets:
 
 You can use many online tools which are available on GitHub to find S3 bucket of a website. I would like to list down few of them:
