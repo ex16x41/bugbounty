@@ -11,12 +11,13 @@
 | Symfony (PHP) Method 4    |     "SF_ROOT_DIR"         |   google.com         | 
 | Django (credit fattselimi)   |    http.title:”DisallowedHost at /”      |   shodan.com         |
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
-| Flask    |       Manual Testing    |   Burpsuite        | 
-| ASP.NET  |     Manual Testing    |   Burpsuite        | 
+| Flask    |       Manual Testing    |   Burpsuite & Web Manual         | 
+| ASP.NET  |     Manual Testing    |   Burpsuite & Web Manual    | 
 | Yii |     "exception" + "play slick" (TBD)   |   N/A        | 
-| X|     "exception" + "play slick" (TBD)   |   N/A        | 
-| X|     "exception" + "play slick" (TBD)   |   N/A        | 
-| X|     "exception" + "play slick" (TBD)   |   N/A        | 
+| N/A |    N/A    |   N/A        | 
+| N/A |    N/A    |   N/A        | 
+| N/A |    N/A    |   N/A        | 
+| N/A |    N/A    |   N/A        | 
 
 # Triggering exceptions (Improper Error Handling - OWASP)
 
