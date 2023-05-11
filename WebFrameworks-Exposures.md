@@ -2,7 +2,7 @@
 
 | Web Framework | Dork |
 |-----:|---------------|
-|Laravel      |               |
+|Laravel|               |
 |     |               |
 |     |               | 
 
