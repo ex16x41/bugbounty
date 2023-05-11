@@ -8,4 +8,5 @@
 | Symfony (PHP) Method 3    |     inurl:/frontend_dev.php/$         |   google.com         | 
 | Symfony (PHP) Method 4    |     "SF_ROOT_DIR"         |   google.com         | 
 | Ruby on rails    |     inurl:/frontend_dev.php/$         |   google.com         | 
-| Symfony (PHP) Method 4    |     "SF_ROOT_DIR"         |   google.com         | 
+| Django (credit fattselimi)   |    http.title:”DisallowedHost at /”      |   shodan.com         |
+
