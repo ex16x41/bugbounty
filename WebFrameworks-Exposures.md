@@ -11,9 +11,9 @@
 | Symfony (PHP) Method 4    |     "SF_ROOT_DIR"         |   google.com         | 
 | Django (credit fattselimi)   |    http.title:”DisallowedHost at /”      |   shodan.com         |
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
-| Flask    |        TBD     |   google.com         | 
+| Flask    |       Manual Testing    |   Burpsuite        | 
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
-| Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
+| ASP.NET  |     Manual Testing    |   Burpsuite        | 
 
 # Triggering exceptions (Improper Error Handling - OWASP)
 
