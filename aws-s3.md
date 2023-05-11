@@ -1,4 +1,4 @@
-# Discover vuln/exposed/misconfig'd s3 buckets.
+# Discover vuln(ver)/exposed/misconfig'd s3 buckets.
 
 ## Sources for external search (osint only)
 
