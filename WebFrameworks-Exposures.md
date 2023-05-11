@@ -1,4 +1,4 @@
-## D
+## Discover web app frameworks and their exposures (low, medium, high, critical) for bug bounties.
 
 # Table of Web Frameworks by priority
 
