@@ -65,4 +65,4 @@
 ![Tuee5](https://github.com/ex16x41/bugbounty/assets/44981946/c80b6d8b-dd15-4c3a-8ffe-3d432ebc52cb)
 
 ## RUBY:
-IMG
+<img width="1342" alt="M4x4d" src="https://github.com/ex16x41/bugbounty/assets/44981946/25405166-843b-4983-aac7-d0941f40d258">
