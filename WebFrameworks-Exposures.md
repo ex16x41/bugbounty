@@ -65,6 +65,19 @@
 
 7.Doctrine\DBAL\Exception: This exception is thrown by the Doctrine database abstraction layer, which is used by Symfony to interact with databases. It is typically caused by a database-related error, such as a missing table or a syntax error in a SQL query.
 
+## Django: Type of Errors
+1.TemplateSyntaxError: This error is thrown when there is a syntax error in a Django template. This error can occur when a developer forgets to close a tag or uses incorrect syntax in a template.
+
+2.ImportError: This error is thrown when there is a problem importing a module or package in a Django application. This error can occur when a developer misspells the name of a module or package or when there is a problem with the environment configuration.
+
+3.OperationalError: This error is thrown when there is an error executing a database query in a Django application. This error can occur when a database connection is lost or when there is a problem with the database configuration.
+
+4.ImproperlyConfigured: This error is thrown when there is a problem with the configuration of a Django application. This error can occur when a developer forgets to set a required setting or when there is a problem with the environment configuration.
+
+5.ValidationError: This error is thrown when there is a problem with data validation in a Django application. This error can occur when a form field is left blank or when a user enters invalid data.
+
+6.SuspiciousOperation: This error is thrown when there is a suspicious or potentially malicious operation detected in a Django application. This error can occur when a user tries to access a restricted resource or perform an action that is not allowed.
+
 
 ## Keywords to check inside exceptions (because webf may be config'd with these below)
 redis, API, DB, mysql, AD, path, server, database, username, password, key, secret, backend, admin, dir, port, URI, 
