@@ -84,6 +84,10 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 ## Laravel: High or Critical Priority
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
 
+REAL LIFE EXAMPLE EXPOSURE LARAVEL POC- 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/b8f70723-8ab7-43e2-861d-8cf483180c7d)
+
+
 ## Symfony 1: High or Critical Priority
 ![error](https://github.com/ex16x41/bugbounty/assets/44981946/c7adac05-c24f-4fc7-951d-4e2ad433081c)
 
