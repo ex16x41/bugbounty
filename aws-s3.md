@@ -1,6 +1,11 @@
-External (OSINT) S3 Search 
-https://osint.sh/buckets/
-https://buckets.grayhatwarfare.com/
+# Discover vuln/exposed/misconfig'd s3 buckets.
+
+## Sources for external search (osint only)
+
+1. https://osint.sh/buckets/
+2. https://buckets.grayhatwarfare.com/
+
+
 
 How to find S3 Buckets:
 
