@@ -70,7 +70,7 @@
 ## Thymeleaf:
 ![output](https://github.com/ex16x41/bugbounty/assets/44981946/9156ae2c-d125-45a8-bbd3-bc04494c3a62)
 
-
-## RUBY:
+## Apache Tomcat:
+![BBOtu](https://github.com/ex16x41/bugbounty/assets/44981946/850de6ef-cc1d-4b7d-92b9-fad29d66a9e3)
 
 ## RUBY:
