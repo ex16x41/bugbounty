@@ -14,7 +14,7 @@
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 
 
-FLASK:
+**FLASK:
 "TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
 "NameError": indicates that a variable or function name was not defined.
 "KeyError": indicates that a key used to access a dictionary does not exist.
@@ -22,4 +22,4 @@ FLASK:
 "AttributeError": indicates that an attribute or method does not exist for an object.
 "SyntaxError": indicates that there is a problem with the syntax of the code.
 "IndentationError": indicates that there is a problem with the indentation of the code.
-"ImportError": indicates that there is a problem importing a module or package  
+"ImportError": indicates that there is a problem importing a module or package** 
