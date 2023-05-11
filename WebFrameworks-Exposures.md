@@ -47,3 +47,22 @@
 7."IndentationError": indicates that there is a problem with the indentation of the code.
 
 8."ImportError": indicates that there is a problem importing a module or package 
+
+
+## Laravel:
+IMG
+
+## Laravel:
+IMG
+
+## Laravel:
+IMG
+
+## Laravel:
+IMG
+
+## Laravel:
+IMG
+
+## Laravel:
+IMG
