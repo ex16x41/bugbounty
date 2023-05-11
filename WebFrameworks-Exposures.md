@@ -13,7 +13,7 @@
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 | Flask    |       Manual Testing    |   Burpsuite        | 
 | ASP.NET  |     Manual Testing    |   Burpsuite        | 
-| X |     "exception" + "play slick" (TBD)   |   N/A        | 
+| Yii |     "exception" + "play slick" (TBD)   |   N/A        | 
 | X|     "exception" + "play slick" (TBD)   |   N/A        | 
 | X|     "exception" + "play slick" (TBD)   |   N/A        | 
 | X|     "exception" + "play slick" (TBD)   |   N/A        | 
