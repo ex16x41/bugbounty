@@ -88,9 +88,13 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/b8f70723-8ab7-43e2-861d-8cf483180c7d)
 
-
 ## Symfony 1: High or Critical Priority
 ![error](https://github.com/ex16x41/bugbounty/assets/44981946/c7adac05-c24f-4fc7-951d-4e2ad433081c)
+
+### REAL LIFE EXAMPLE EXPOSURE SYMFONY POC- 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/d5007b3b-0803-4a8d-9af5-8d9e9e7368b7)
+
 
 ## Symfony 2: High or Critical Priority
 ![exceptions-in-dev-environment](https://github.com/ex16x41/bugbounty/assets/44981946/eea554ff-0c05-4e29-9bab-43db25f9180c)
