@@ -11,9 +11,18 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/f9c53007-c327-4d08-b0cc-3aa520ed650b)
 
 
-
 # Internal search - host targeted 
-How to find S3 Buckets:
+
+## Identify s3 buckets - passive method 
+//
+site:http://s3.amazonaws.com intitle:index.of.bucket
+site:http://amazonaws.com inurl:".s3.amazonaws.com/"
+site:.s3.amazonaws.com "Company"
+intitle:index.of.bucket
+site:http://s3.amazonaws.com intitle:Bucket loading
+site:*.amazonaws.com inurl:index.html
+Bucket Date Modified
+//
 
 You can use many online tools which are available on GitHub to find S3 bucket of a website. I would like to list down few of them:
 Lazy S3
