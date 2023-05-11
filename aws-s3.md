@@ -35,9 +35,9 @@
 | Method | Detail if available|
 |-----:|---------------:|
 |    HTML inspection (S3 Bucket URL hardcoded in HTML of webpage) | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
-|Brute-Force | Try to request folders that exist and see the server behavior (403s, blank page, or directory listing).  |  
-|    DNS caching | send a very large path, break the headers format, or change the HTTP version.     |
-| Reverse IP lookup (Bing Reverse IP) | Identify possible input points where the application is expecting data.  | 
+|Brute-Force | TBD|  
+|    DNS caching | TBD  |
+| Reverse IP lookup (Bing Reverse IP) | TBD  | 
 |    Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
 
 
