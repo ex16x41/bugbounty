@@ -1,3 +1,5 @@
+## D
+
 # Table of Web Frameworks by priority
 
 | Web Framework | Method | Source|
@@ -15,9 +17,11 @@
 
 
 ## FLASK:
-"TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
-"NameError": indicates that a variable or function name was not defined.
-"KeyError": indicates that a key used to access a dictionary does not exist.
+1."TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
+
+2."NameError": indicates that a variable or function name was not defined.
+
+3."KeyError": indicates that a key used to access a dictionary does not exist.
 "ValueError": indicates that an argument passed to a function or method is invalid.
 "AttributeError": indicates that an attribute or method does not exist for an object.
 "SyntaxError": indicates that there is a problem with the syntax of the code.
