@@ -31,7 +31,7 @@
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
 |Application| Try access host via IP, may trigger this also  | 
 
-## FLASK:
+## Flask: Type of Errors
 1."TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
 
 2."NameError": indicates that a variable or function name was not defined.
@@ -48,6 +48,20 @@
 
 8."ImportError": indicates that there is a problem importing a module or package 
 
+## Symfony: Type of Errors
+1.InvalidArgumentException: This exception is thrown when an argument passed to a function or method is not valid.
+
+2.NotFoundHttpException: This exception is thrown when a requested resource or URL is not found.
+
+3.AccessDeniedException: This exception is thrown when a user does not have sufficient permissions to access a resource.
+
+4.RuntimeException: This is a generic exception that is thrown when an unexpected error occurs during the execution of a script or application.
+
+5.HttpException: This is a base exception class for HTTP-related errors, such as 404 (Not Found) or 500 (Internal Server Error).
+
+6.Twig_Error_Runtime: This exception is thrown by the Twig template engine, which is used by Symfony to render templates. It is typically caused by a syntax error or a missing variable in a template.
+
+7.Doctrine\DBAL\Exception: This exception is thrown by the Doctrine database abstraction layer, which is used by Symfony to interact with databases. It is typically caused by a database-related error, such as a missing table or a syntax error in a SQL query.
 
 ## Laravel: High Priority
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
