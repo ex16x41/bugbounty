@@ -79,8 +79,8 @@
 ## Spark:
 TBD
 
-## Flask:
-![ijkqD](https://github.com/ex16x41/bugbounty/assets/44981946/c7baef3b-692b-4390-aaaf-fbd502f79771)
+## Sinatra:
+![LMJIu](https://github.com/ex16x41/bugbounty/assets/44981946/6247d4e8-aca7-44f6-90e2-a9df45afd005)
 
 ## Flask:
 ![ijkqD](https://github.com/ex16x41/bugbounty/assets/44981946/c7baef3b-692b-4390-aaaf-fbd502f79771)
