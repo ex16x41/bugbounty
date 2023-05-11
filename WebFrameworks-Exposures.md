@@ -17,7 +17,7 @@
 
 # Triggering exceptions (Improper Error Handling - OWASP)
 
-| Method |
+| Web applications frequently generate error conditions during normal operation. Out of memory, null pointer exceptions, system call failure, database unavailable, network timeout, and hundreds of other common conditions can cause errors to be generated. These errors must be handled according to a well thought out scheme that will provide a meaningful error message to the user, diagnostic information to the site maintainers, and no useful information to an attacker. |
 |-----:|
 |Laravel (PHP)|  
 |  Symfony (PHP) Method 1  |  
