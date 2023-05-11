@@ -66,3 +66,11 @@
 
 ## RUBY:
 <img width="1342" alt="M4x4d" src="https://github.com/ex16x41/bugbounty/assets/44981946/25405166-843b-4983-aac7-d0941f40d258">
+
+## Thymeleaf:
+![output](https://github.com/ex16x41/bugbounty/assets/44981946/9156ae2c-d125-45a8-bbd3-bc04494c3a62)
+
+
+## RUBY:
+
+## RUBY:
