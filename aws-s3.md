@@ -13,3 +13,5 @@ Mass3
 Dumpster Diver
 S3 Bucket Finder
 S3Scanner
+
+AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
