@@ -73,5 +73,14 @@
 ## Apache Tomcat:
 ![BBOtu](https://github.com/ex16x41/bugbounty/assets/44981946/850de6ef-cc1d-4b7d-92b9-fad29d66a9e3)
 
+## Yii:
+![gxcoD](https://github.com/ex16x41/bugbounty/assets/44981946/7ab6ed5f-7096-48ce-bf53-5f381fad5b97)
+
+## Flask:
+![ijkqD](https://github.com/ex16x41/bugbounty/assets/44981946/c7baef3b-692b-4390-aaaf-fbd502f79771)
+
+## Flask:
+![ijkqD](https://github.com/ex16x41/bugbounty/assets/44981946/c7baef3b-692b-4390-aaaf-fbd502f79771)
+
 ## Flask:
 ![ijkqD](https://github.com/ex16x41/bugbounty/assets/44981946/c7baef3b-692b-4390-aaaf-fbd502f79771)
