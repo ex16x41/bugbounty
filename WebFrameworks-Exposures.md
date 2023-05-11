@@ -49,28 +49,28 @@
 8."ImportError": indicates that there is a problem importing a module or package 
 
 
-## Laravel:
+## Laravel: High Priority
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
 
-## Symfony 1:
+## Symfony 1: High Priority
 ![error](https://github.com/ex16x41/bugbounty/assets/44981946/c7adac05-c24f-4fc7-951d-4e2ad433081c)
 
-## Symfony 2:
+## Symfony 2: High Priority
 ![exceptions-in-dev-environment](https://github.com/ex16x41/bugbounty/assets/44981946/eea554ff-0c05-4e29-9bab-43db25f9180c)
 
-## Django:
+## Django: Medium Priority
 ![error_movies_not_imported_in_views](https://github.com/ex16x41/bugbounty/assets/44981946/bfb3d386-b45a-4855-842c-bc6ba9a63830)
 
-## ASP.NET:
+## ASP.NET: Medium Priority
 ![Tuee5](https://github.com/ex16x41/bugbounty/assets/44981946/c80b6d8b-dd15-4c3a-8ffe-3d432ebc52cb)
 
-## RUBY:
+## RUBY: Medium Priority
 <img width="1342" alt="M4x4d" src="https://github.com/ex16x41/bugbounty/assets/44981946/25405166-843b-4983-aac7-d0941f40d258">
 
 ## Thymeleaf:
 ![output](https://github.com/ex16x41/bugbounty/assets/44981946/9156ae2c-d125-45a8-bbd3-bc04494c3a62)
 
-## Apache Tomcat:
+## Apache Tomcat: Medium Priority
 ![BBOtu](https://github.com/ex16x41/bugbounty/assets/44981946/850de6ef-cc1d-4b7d-92b9-fad29d66a9e3)
 
 ## Yii:
