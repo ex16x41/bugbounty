@@ -63,13 +63,13 @@
 
 7.Doctrine\DBAL\Exception: This exception is thrown by the Doctrine database abstraction layer, which is used by Symfony to interact with databases. It is typically caused by a database-related error, such as a missing table or a syntax error in a SQL query.
 
-## Laravel: High Priority
+## Laravel: High or Critical Priority
 ![YDQcV](https://github.com/ex16x41/bugbounty/assets/44981946/075dfe16-0995-4be3-9833-2ab7aa8066a3)
 
-## Symfony 1: High Priority
+## Symfony 1: High or Critical Priority
 ![error](https://github.com/ex16x41/bugbounty/assets/44981946/c7adac05-c24f-4fc7-951d-4e2ad433081c)
 
-## Symfony 2: High Priority
+## Symfony 2: High or Critical Priority
 ![exceptions-in-dev-environment](https://github.com/ex16x41/bugbounty/assets/44981946/eea554ff-0c05-4e29-9bab-43db25f9180c)
 
 ## Django: Medium Priority
