@@ -22,8 +22,13 @@
 2."NameError": indicates that a variable or function name was not defined.
 
 3."KeyError": indicates that a key used to access a dictionary does not exist.
-"ValueError": indicates that an argument passed to a function or method is invalid.
-"AttributeError": indicates that an attribute or method does not exist for an object.
-"SyntaxError": indicates that there is a problem with the syntax of the code.
-"IndentationError": indicates that there is a problem with the indentation of the code.
-"ImportError": indicates that there is a problem importing a module or package ## 
+
+4."ValueError": indicates that an argument passed to a function or method is invalid.
+
+5."AttributeError": indicates that an attribute or method does not exist for an object.
+
+6."SyntaxError": indicates that there is a problem with the syntax of the code.
+
+7."IndentationError": indicates that there is a problem with the indentation of the code.
+
+8."ImportError": indicates that there is a problem importing a module or package 
