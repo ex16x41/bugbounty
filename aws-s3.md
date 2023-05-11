@@ -30,6 +30,7 @@
 [x] Bucket Date Modified
 
 
+## Identify s3 buckets - active method 
 You can use many online tools which are available on GitHub to find S3 bucket of a website. I would like to list down few of them:
 Lazy S3
 bucket_finder
