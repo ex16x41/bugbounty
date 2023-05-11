@@ -26,7 +26,7 @@
 |Application|Analyse the expected input type (strings, integers, JSON, XML, etc.). |
 |Application| Fuzz every input point based on the previous steps to have a more focused test scenario.   | 
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
-|Application| Fuzz every input point based on the previous steps to have a more focused test scenario.   | 
+|Application| Try access host via IP, may trigger this also  | 
 
 ## FLASK:
 1."TypeError": indicates a type-related error, such as trying to perform an operation on an object of the wrong type.
