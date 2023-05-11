@@ -77,7 +77,7 @@
 6.SuspiciousOperation: This error is thrown when there is a suspicious or potentially malicious operation detected in a Django application. This error can occur when a user tries to access a restricted resource or perform an action that is not allowed.
 
 
-## Keywords to check inside exceptions (because webf may be config'd with these below)
+# Keywords to check inside exceptions (because webf may be config'd with these below)
 redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key, secret, backend, admin, dir, port, URI, 
 
 
