@@ -78,7 +78,7 @@ redis, API, DB, mysql, AD, path, server, database, username, password, key, secr
 ## Symfony 2: High or Critical Priority
 ![exceptions-in-dev-environment](https://github.com/ex16x41/bugbounty/assets/44981946/eea554ff-0c05-4e29-9bab-43db25f9180c)
 
-## Django: Medium Priority
+## Django: Medium or High Priority
 ![error_movies_not_imported_in_views](https://github.com/ex16x41/bugbounty/assets/44981946/bfb3d386-b45a-4855-842c-bc6ba9a63830)
 
 ## ASP.NET: Medium Priority
