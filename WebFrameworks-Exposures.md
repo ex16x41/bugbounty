@@ -9,5 +9,8 @@
 | Symfony (PHP) Method 4    |     "SF_ROOT_DIR"         |   google.com         | 
 | Django (credit fattselimi)   |    http.title:”DisallowedHost at /”      |   shodan.com         |
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
+| Flask    |     TBD        |   google.com         | 
+| Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
+| Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 
 
