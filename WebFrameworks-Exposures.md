@@ -79,7 +79,7 @@
 
 
 ## Keywords to check inside exceptions (because webf may be config'd with these below)
-redis, API, DB, mysql, AD, path, server, database, username, password, key, secret, backend, admin, dir, port, URI, 
+redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key, secret, backend, admin, dir, port, URI, 
 
 
 ## Laravel: High or Critical Priority
