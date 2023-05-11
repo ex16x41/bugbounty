@@ -32,6 +32,8 @@
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
 |Application| Try access host via IP, may trigger this also  | 
 
+# Understanding Errors (Laravel, Symfony, Django)
+
 ## Laravel: Type of Errors
 1.HttpException: This exception is thrown when an HTTP error occurs, such as a 404 Not Found or 500 Internal Server Error. It is the base class for all HTTP-related exceptions in Laravel.
 
