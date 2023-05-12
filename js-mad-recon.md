@@ -34,6 +34,10 @@ JS files, HTML source code (comments, hrefs), function calls, API documentation,
 |paths|
 |ip addrs| 
 |file upload field in js ref|
+|URLs, domains, etc which can cause possible exploits|
+|Potential wildcard entries|
+|outdated or old frameworks with known vulnerabilities.|
+
 
 ## TIP :
 
