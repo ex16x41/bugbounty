@@ -1,4 +1,4 @@
-# types of redirects in exploiting the vuln
+# types of redirects in exploiting the vuln (general low value score)
 
 The vulnerability in all types of redirect attacks (reflected, stored, and DOM-based) is due to improper input validation or sanitization
 
