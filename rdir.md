@@ -49,7 +49,7 @@
 
 
 # note
-* run search excluding words that can include false positives and links which include login portals because often will require authentication to redirect
+* run search excluding words that can include false positives and links which include login portals because often will require authentication to redirect (in most cases anyway) but changing action e..g, logout = may be successful 
 
 use something like: 
 
