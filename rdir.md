@@ -1,4 +1,4 @@
-# test for open redirect vulns (google dorks) 
+# test for open redirect vulns (dorks) 
 
 
 | value |
