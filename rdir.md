@@ -1,5 +1,13 @@
-# test for open redirect vulns (dorks) 
+# types of redirects
 
+| types | meaning
+|:---:|:---:|
+| local only  | Some websites will blacklist some requests to only allow requests to theirsite.com or /localendpoint. Armed with an open redirect on their domain, depending on their framework and how they handle redirects, you can sometimes bypass their blacklsit and achieve SSRF or RCE (depending on the circumstances). Imagine you have an endpoint which takes an ?url= parameter but it will only allow you to input local endpoints, such as /example. Now imagine you also have an open redirect at /redirect?goto=//127.0.0.1/. Pointing ?url= to this endpoint may cause their web application to trust the user input (since it is pointing to local endpoint), but process the redirect & show you sensitive information.  |
+
+
+
+
+# test for open redirect vulns via dorks 
 
 | value |
 |:---:|
