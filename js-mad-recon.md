@@ -16,7 +16,7 @@ JS files, HTML source code (comments, hrefs), function calls, API documentation,
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6c0a0a61-f853-4800-b8a3-c645332ee09d)
 
 ## What else to look for on the high level: 
-| type |about
+| type |about |
 |:---:|:---:|
 |JS sinks |JavaScript sinks refer to functions or APIs that are used to receive data from user input or external sources without proper validation or sanitization, making them vulnerable to attacks such as XSS (Cross-site scripting). Examples of JavaScript sinks include document.write(), innerHTML, and eval(). | 
 |HTML sinks| HTML sinks refer to HTML attributes that accept input from user or external sources without proper validation or sanitization, making them vulnerable to attacks such as XSS. Examples of HTML sinks include src, href, and onclick attributes. |
