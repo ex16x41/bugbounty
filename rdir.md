@@ -2,10 +2,16 @@
 
 | types | meaning
 |:---:|:---:|
-| local only  | Some websites will blacklist some requests to only allow requests to theirsite.com or /localendpoint. Armed with an open redirect on their domain, depending on their framework and how they handle redirects, you can sometimes bypass their blacklsit and achieve SSRF or RCE (depending on the circumstances). Imagine you have an endpoint which takes an ?url= parameter but it will only allow you to input local endpoints, such as /example. Now imagine you also have an open redirect at /redirect?goto=//127.0.0.1/. Pointing ?url= to this endpoint may cause their web application to trust the user input (since it is pointing to local endpoint), but process the redirect & show you sensitive information.  |
 |reflected (most common type) | A reflected open redirect occurs when an attacker can inject a redirect URL into a request parameter that is immediately reflected back to the user in the application's response.| 
 | stored | A stored open redirect occurs when an attacker can inject a redirect URL into a server-side storage mechanism (such as a database) that is later retrieved and executed by the application.| 
 |DOM based | A DOM-based open redirect occurs when an attacker can manipulate the client-side DOM (Document Object Model) to cause a redirect to occur, without any server-side involvement. This type of vulnerability is specific to client-side scripting languages such as JavaScript.| 
+
+# types of redirects 
+
+| types | meaning
+|:---:|:---:|
+| Internal or Local Redirects |  These redirects occur within the same website. They are used to redirect users from one page to another within the same domain. Internal redirects are commonly used for site maintenance, updating content, and improving navigation.| 
+| External Redirects | These redirects occur when a user is redirected to a page on a different website or domain. External redirects can be useful for linking to external resources, tracking clicks, and managing affiliate programs.| 
 
 
 # pivot from redir to other 
