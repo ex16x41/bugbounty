@@ -115,7 +115,7 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 ![BBOtu](https://github.com/ex16x41/bugbounty/assets/44981946/850de6ef-cc1d-4b7d-92b9-fad29d66a9e3)
 
 ## Yii:
-![gxcoD](https://github.com/ex16x41/bugbounty/assets/44981946/7ab6ed5f-7096-48ce-bf53-5f381fad5b97)
+![featured2](https://github.com/ex16x41/bugbounty/assets/44981946/4df57d6f-7eb5-48e1-be2e-f0f8fe15da72)
 
 ## Spark:
 TBD
