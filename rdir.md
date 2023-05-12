@@ -6,7 +6,6 @@
 
 
 
-
 # test for open redirect vulns via dorks 
 
 | value |
