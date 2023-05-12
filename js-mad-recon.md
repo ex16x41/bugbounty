@@ -1,4 +1,4 @@
-# What content to dig thru? 
+# Where to dig thru? 
 JS files, HTML source code (comments, hrefs), API documentation, Configuration files, Server responses (errors, debug), 
 
 # How endpoints may be hiding ;^)
