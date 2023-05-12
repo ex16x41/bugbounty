@@ -15,9 +15,6 @@
 | ASP.NET  |     Manual Testing    |   Burpsuite & Web Manual    | 
 | Yii |     intitle:"yii debugger"   |   google.com        | 
 | Generic Method 1 (mass)|  site:.tld1.wildcard OR site:wildcard.tld "unexpected error" OR "Uncaught Exception" OR "fatal error" OR "Unknown column"  OR "exception occurred"   |  google.com       | 
-| Generic Method 1 (targeted) |    N/A    |   N/A        | 
-| N/A |    N/A    |   N/A        | 
-| N/A |    N/A    |   N/A        | 
 
 ## Triggering exceptions (Improper Error Handling - OWASP)
 
@@ -114,8 +111,13 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 ## Apache Tomcat: Medium Priority
 ![BBOtu](https://github.com/ex16x41/bugbounty/assets/44981946/850de6ef-cc1d-4b7d-92b9-fad29d66a9e3)
 
-## Yii:
-![featured2](https://github.com/ex16x41/bugbounty/assets/44981946/4df57d6f-7eb5-48e1-be2e-f0f8fe15da72)
+## Yii: Example from test (shows in two pages one debug & one exception) 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/3760db70-db81-469c-b2ad-93047fa15ee8)
+
+## Yii: Exception
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/bbfaf23e-4954-4e67-af45-762d5fd7a1b7)
+
 
 ## Spark:
 TBD
