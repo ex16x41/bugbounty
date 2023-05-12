@@ -1,5 +1,5 @@
 # What content to dig thru? 
-JS files, HTML source code (comments, hrefs), API documentation, Configuration files
+JS files, HTML source code (comments, hrefs), API documentation, Configuration files, Server responses (errors), 
 
 # How endpoints may be hiding ;^)
 
