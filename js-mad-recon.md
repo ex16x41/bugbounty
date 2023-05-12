@@ -21,7 +21,7 @@ sensitive file paths, database information, API keys, authentication tokens, con
 
 The types of JavaScript files that may include hidden endpoints can vary, but commonly they include files related to AJAX requests, API integrations, user authentication, and data storage or retrieval. These files may be named in a way that suggests their purpose, such as "api.js", "ajax.js", "auth.js", or "data.js", but not necessarry
 
-# Tools
+# Tools enum, list all js content, dig thru js content
 
 gau - https://github.com/lc/gau
 
