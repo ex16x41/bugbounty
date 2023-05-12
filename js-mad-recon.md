@@ -37,7 +37,6 @@ In this example, the href attribute is an HTML sink that executes a JavaScript c
 
 | type | value |
 |:---:|:---:|
-|Sensitive data| sensitive file paths |
 |Sensitive data|database information| 
 |Sensitive data|API keys| 
 |Sensitive data|auth tokens| 
