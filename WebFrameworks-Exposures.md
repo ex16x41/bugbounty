@@ -35,7 +35,7 @@
 |-----:|---------------:|
 |got PHP files in specific path order? | X      |
 |JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.|
-
+| nsf files | 
 
 # Understanding Errors (Laravel, Symfony, Django)
 
