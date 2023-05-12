@@ -1,8 +1,8 @@
+# Where endpoints may be hiding ;^)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/e10c0188-5af3-484e-b953-b5fee7cd0b72)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/77462f2f-a5ba-4a1e-921a-265bbd605080)
-
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/948f1aee-3a68-41bd-b32a-05919b8b19d2)
 
