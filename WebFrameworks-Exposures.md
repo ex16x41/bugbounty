@@ -33,7 +33,8 @@
 
 | indicator |what's in use|
 |-----:|---------------:|
-|got PHP files in specific path order? | expect to see Laravel, Symfony, CodeIgniter, CakePHP, and Yii.      |
+|got PHP files in specific path order? | X      |
+|JSP files | Spring, Struts, and JavaServer Faces (JSF).|
 
 
 # Understanding Errors (Laravel, Symfony, Django)
