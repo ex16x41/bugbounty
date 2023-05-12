@@ -100,6 +100,8 @@ inurl:logout?returnUrl= -tickets -user -docs -kr  -account  -signup -signin -log
 a good example would be checkout, logout, signout, allowcookies, etc. 
 
 
-# Automation 
+# writeups read 
+
+https://gowsundar.gitbook.io/book-of-bugbounty-tips/open-redirect
 
 
