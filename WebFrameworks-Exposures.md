@@ -113,9 +113,6 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 ## RUBY: Medium Priority
 <img width="1342" alt="M4x4d" src="https://github.com/ex16x41/bugbounty/assets/44981946/25405166-843b-4983-aac7-d0941f40d258">
 
-## Thymeleaf:
-![output](https://github.com/ex16x41/bugbounty/assets/44981946/9156ae2c-d125-45a8-bbd3-bc04494c3a62)
-
 ## Apache Tomcat: Medium Priority
 ![BBOtu](https://github.com/ex16x41/bugbounty/assets/44981946/850de6ef-cc1d-4b7d-92b9-fad29d66a9e3)
 
@@ -126,6 +123,8 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/bbfaf23e-4954-4e67-af45-762d5fd7a1b7)
 
+## Thymeleaf:
+![output](https://github.com/ex16x41/bugbounty/assets/44981946/9156ae2c-d125-45a8-bbd3-bc04494c3a62)
 
 ## Spark:
 TBD
