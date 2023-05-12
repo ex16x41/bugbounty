@@ -33,7 +33,7 @@ In this example, prompt() is a JavaScript source that receives user input, and d
 
 In this example, the href attribute is an HTML sink that executes a JavaScript code when the link is clicked. The code is vulnerable to XSS attacks because it displays the contents of the document.cookie object without proper validation or sanitization.
 
-# What data to look for for ?!
+# be on the lookout for:
 
 | type | value |
 |:---:|:---:|
