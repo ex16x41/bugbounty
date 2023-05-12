@@ -22,7 +22,7 @@ The vulnerability in all types of redirect attacks (reflected, stored, and DOM-b
 |:---:|
 | XSS |
 | ATO |
-| XSS |
+| modify iframe content |
 | XSS |
 
 ## legit addons, use for openr purposes ;^)
