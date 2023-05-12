@@ -13,7 +13,7 @@
 | Ruby on rails    |     Application Trace +  nil:NilClass (10%) TBD        |   google.com         | 
 | Flask    |       Manual Testing    |   Burpsuite & Web Manual         | 
 | ASP.NET  |     Manual Testing    |   Burpsuite & Web Manual    | 
-| Yii |     "exception" + "play slick" (TBD)   |   N/A        | 
+| Yii |     intitle:"yii debugger"   |   google.com        | 
 | Generic Method 1 (mass)|  site:.tld1.wildcard OR site:wildcard.tld "unexpected error" OR "Uncaught Exception" OR "fatal error" OR "Unknown column"  OR "exception occurred"   |  google.com       | 
 | Generic Method 1 (targeted) |    N/A    |   N/A        | 
 | N/A |    N/A    |   N/A        | 
