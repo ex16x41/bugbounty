@@ -52,7 +52,7 @@ The types of JavaScript files that may include hidden endpoints can vary, but co
 
 # Tools
 
-Burp Pro > sitemap > filter > js 
+Burp Pro > sitemap > filter/engagement tools > find scripts > js 
 
 # Tools on git enum & crawl thru js urls
 
