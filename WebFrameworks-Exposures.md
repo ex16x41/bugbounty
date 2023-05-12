@@ -29,9 +29,9 @@
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
 |Application| Try access host via IP, may trigger this also  | 
 
-## What framework may a target be using? (if hidden from basic footprinting)
+## What tech(app,src,framew) may a target be using? (if hidden from basic footprinting)
 
-| indicator | framework(s)|
+| indicator |what's in use|
 |-----:|---------------:|
 |got PHP files in specific path order? | expect to see Laravel, Symfony, CodeIgniter, CakePHP, and Yii.      |
 
