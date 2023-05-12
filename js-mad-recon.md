@@ -1,5 +1,5 @@
 # Where to dig thru? 
-JS files, HTML source code (comments, hrefs), API documentation, Configuration files, Server responses (errors, debug), 
+JS files, HTML source code (comments, hrefs), function calls, API documentation, Configuration files, Server responses (errors, debug), 
 
 # How endpoints may be hiding ;^)
 
@@ -54,13 +54,6 @@ collector.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/collector.
     ip-check for ip addresses in JavaScript files
     upload-fields-check for file upload fields in JavaScript files
 
-
-
-the gems are
-
-function calls 
-
-http requests
 
 
 
