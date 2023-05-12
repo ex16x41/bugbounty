@@ -1,4 +1,4 @@
-# Where to dig thru? 
+# Where to dig thru? (by priority + lvl of access)
 JS files, HTML source code (comments, hrefs), function calls, API documentation, Configuration files, Server responses (errors, debug), 
 
 # How endpoints may be hiding ;^)
