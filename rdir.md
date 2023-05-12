@@ -25,6 +25,14 @@ The vulnerability in all types of redirect attacks (reflected, stored, and DOM-b
 | XSS |
 | XSS |
 
+## legit addons, use for openr purposes ;^)
+https://addons.mozilla.org/en-US/firefox/addon/link-gopher/ 
+
+![image](https://user-images.githubusercontent.com/132210050/235364026-1bf8368a-cb39-4d6a-b871-f2eed507ff17.png)
+
+![image](https://user-images.githubusercontent.com/132210050/235364056-70f6dc63-8821-4c7a-a5e0-b3567fd5511b.png)
+
+
 # test for open redirect vulns via dorks 
 
 | value |
