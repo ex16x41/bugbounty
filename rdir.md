@@ -41,7 +41,7 @@ https://addons.mozilla.org/en-US/firefox/addon/link-gopher/
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/f65bd0b0-b358-4d5e-aa1d-50fe02c9751d)
 
 
-# test for open redirect vulns via dorks 
+# index params via dorks
 
 | value |
 |:---:|
