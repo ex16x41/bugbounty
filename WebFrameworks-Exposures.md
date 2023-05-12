@@ -31,7 +31,7 @@
 
 ## What tech(app,src,framew) may a target be using? (if hidden from basic footprinting)
 
-| indicator |what's likely in use| what info may hold (if known or relevant)|
+| common filetypes |what's likely in use| what info may hold (if known or relevant)|
 |-----:|---------------:|---------------:|
 |got PHP files in specific path order? | CMS:WordPress, Joomla, and Drupal., WEBSRV:Apache, Nginx, and Microsoft IIS, WEBF:Laravel, Symfony, CodeIgniter, and Yii. DB:MySQL, PostgreSQL, and SQLite     | add |
 |JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.| add |
