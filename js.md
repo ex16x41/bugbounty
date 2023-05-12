@@ -21,3 +21,12 @@ BurpSuite - http://portswigger.net/
 jsbeautify.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/jsbeautify.py
 
 collector.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/collector.py
+
+
+    awskeys- check for aws keys in JavaScript files
+    firebase-check for firebase URLs in JavaScript files
+    json_file-check for Json file in JavaScript files
+    s3-buckets-check for aws s3 buckets in JavaScript files
+    sec-check for secrets in JavaScript files
+    ip-check for ip addresses in JavaScript files
+    upload-fields-check for file upload fields in JavaScript files
