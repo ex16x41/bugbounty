@@ -1,5 +1,7 @@
 # types of redirects in exploiting the vuln
 
+The vulnerability in all types of redirect attacks (reflected, stored, and DOM-based) is due to improper input validation or sanitization
+
 | types | meaning | example | means to
 |:---:|:---:|:---:|:---:|
 |reflected (most common type) server side | A reflected open redirect occurs when an attacker can inject a redirect URL into a request parameter that is immediately reflected back to the user in the application's response.| https://www.example.com/login.php?redirect_url=https://www.attacker.com/malicious-page.html | dorks, linkgopher filter, manual inspection, js, html, links, hrefs,  | 
