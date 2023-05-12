@@ -6,6 +6,9 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/948f1aee-3a68-41bd-b32a-05919b8b19d2)
 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/d8a27130-eb3e-4668-b215-19d56de98336)
+
+
 
 Tools:
 
