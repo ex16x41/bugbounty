@@ -104,4 +104,4 @@ a good example would be checkout, logout, signout, allowcookies, etc.
 
 https://gowsundar.gitbook.io/book-of-bugbounty-tips/open-redirect
 
-
+https://corneacristian.medium.com/top-25-open-redirect-bug-bounty-reports-5ffe11788794
