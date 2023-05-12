@@ -1,4 +1,4 @@
-# types of redirects
+# types of redirects in exploiting the vuln
 
 | types | meaning
 |:---:|:---:|
@@ -6,7 +6,7 @@
 | stored | A stored open redirect occurs when an attacker can inject a redirect URL into a server-side storage mechanism (such as a database) that is later retrieved and executed by the application.| 
 |DOM based | A DOM-based open redirect occurs when an attacker can manipulate the client-side DOM (Document Object Model) to cause a redirect to occur, without any server-side involvement. This type of vulnerability is specific to client-side scripting languages such as JavaScript.| 
 
-# types of redirects 
+# types of redirects by design
 
 | types | meaning
 |:---:|:---:|
