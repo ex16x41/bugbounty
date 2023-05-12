@@ -65,7 +65,7 @@ The types of JavaScript files that may include hidden endpoints can vary, but co
 
 Burp Pro > sitemap > filter/engagement tools > find scripts > js 
 
-# Tools on git enum & crawl thru js urls
+# Git tools
 
 gau - https://github.com/lc/gau
 
