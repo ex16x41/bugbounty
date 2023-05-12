@@ -33,7 +33,7 @@
 
 | indicator |what's likely in use|
 |-----:|---------------:|
-|got PHP files in specific path order? | CMS:WordPress, Joomla, and Drupal., WEBSRV:Apache, Nginx, and Microsoft IIS      |
+|got PHP files in specific path order? | CMS:WordPress, Joomla, and Drupal., WEBSRV:Apache, Nginx, and Microsoft IIS, WEBF:Laravel, Symfony, CodeIgniter, and Yii.      |
 |JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.|
 | nsf files | 
 
