@@ -1,8 +1,8 @@
 # types of redirects in exploiting the vuln
 
-| types | meaning
-|:---:|:---:|
-|reflected (most common type) | A reflected open redirect occurs when an attacker can inject a redirect URL into a request parameter that is immediately reflected back to the user in the application's response.| 
+| types | meaning | example
+|:---:|:---:|:---:|
+|reflected (most common type) | A reflected open redirect occurs when an attacker can inject a redirect URL into a request parameter that is immediately reflected back to the user in the application's response.| https://www.example.com/login.php?redirect_url=https://www.attacker.com/malicious-page.html | 
 | stored | A stored open redirect occurs when an attacker can inject a redirect URL into a server-side storage mechanism (such as a database) that is later retrieved and executed by the application.| 
 |DOM based | A DOM-based open redirect occurs when an attacker can manipulate the client-side DOM (Document Object Model) to cause a redirect to occur, without any server-side involvement. This type of vulnerability is specific to client-side scripting languages such as JavaScript.| 
 
