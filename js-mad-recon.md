@@ -1,4 +1,4 @@
-# Where to dig thru? (by priority + lvl of access) - medium/high/critical - low hangin fruit 
+# Where to dig thru? - medium/high/critical - low hangin fruit 
 JS files, HTML source code (comments, hrefs), function calls, API documentation, Configuration files, Server responses (errors, debug), 
 
 # How endpoints may be hiding ;^)
@@ -71,3 +71,5 @@ collector.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/collector.
 reading stuff 
 
 https://pravinponnusamy.medium.com/find-the-treasure-hidden-in-javascript-546827e1a4e2 
+
+https://thehackerish.com/javascript-enumeration-for-bug-bounty-hunters/
