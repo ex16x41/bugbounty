@@ -119,7 +119,7 @@ redis, API, PHP, DB, mysql, AD, path, server, database, username, password, key,
 ## Yii: Example from test (shows in two pages one debug & one exception) - Medium or High Priority
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/3760db70-db81-469c-b2ad-93047fa15ee8)
 
-## Yii: Exception - Medium or High Priority
+## Yii: Exception - Medium Priority
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/bbfaf23e-4954-4e67-af45-762d5fd7a1b7)
 
