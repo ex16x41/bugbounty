@@ -29,6 +29,13 @@
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
 |Application| Try access host via IP, may trigger this also  | 
 
+## What framework may a host be using? (if hidden from basic footprinting)
+
+| indicator | framework(s)|
+|-----:|---------------:|
+|got PHP files? | expect to see X       |
+
+
 # Understanding Errors (Laravel, Symfony, Django)
 
 ## Laravel: Type of Errors
