@@ -1,7 +1,7 @@
 # Where to dig thru? - medium/high/critical - low hangin fruit 
 JS files, HTML source code (comments, hrefs), function calls, API documentation, Configuration files, Server responses (errors, debug), 
 
-# How endpoints may be hiding ;^)
+# ENDPOINST : How endpoints may be hiding ;^)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/e10c0188-5af3-484e-b953-b5fee7cd0b72)
 
@@ -14,6 +14,13 @@ JS files, HTML source code (comments, hrefs), function calls, API documentation,
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/cd452fdd-b069-4f05-a366-82155c8b295a)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6c0a0a61-f853-4800-b8a3-c645332ee09d)
+
+## What else to look for on the high level: 
+| type |
+|:---:|
+| HTML/ JS sinks |
+|hidden parameters|
+
 
 # What data to look for for ?!
 
