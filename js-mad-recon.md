@@ -89,8 +89,7 @@ jsbeautify.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/jsbeautif
 
 collector.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/collector.py
 
-
-
+# scripthunter https://github.com/robre/scripthunter 
 
 
 reading stuff 
