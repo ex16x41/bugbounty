@@ -16,7 +16,7 @@
 
 sensitive file paths, database information, API keys, authentication tokens, configuration details, debug information, function names
 
-Tools:
+# Tools
 
 gau - https://github.com/lc/gau
 
