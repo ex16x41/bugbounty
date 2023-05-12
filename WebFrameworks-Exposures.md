@@ -31,21 +31,21 @@
 
 ## filetypes indicators for apps/websrv/webf used by target:
 
-| common filetypes |what's likely in use| what info may hold (if known or relevant)|
-|-----:|---------------:|---------------:|
-|got PHP files in specific path order? | CMS:WordPress, Joomla, and Drupal., WEBSRV:Apache, Nginx, and Microsoft IIS, WEBF:Laravel, Symfony, CodeIgniter, and Yii. DB:MySQL, PostgreSQL, and SQLite     | add |
-|JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.| add |
+| common filetypes |what's likely in use|
+|-----:|---------------:|
+|got PHP files in specific path order? | CMS:WordPress, Joomla, and Drupal., WEBSRV:Apache, Nginx, and Microsoft IIS, WEBF:Laravel, Symfony, CodeIgniter, and Yii. DB:MySQL, PostgreSQL, and SQLite     |
+|JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.| 
 | nsf files | XPages, IBM Domino | add |
-| env | Adobe Acrobat and Acrobat Reader files. An ENV file holds spelling and format setting information | add |
-| do | web-based Java program run by a web server that supports Java, such as Tomcat or IBM WebSphere |add |
-| conf | configuration or “config” file used on Unix and Linux based systems. It stores settings used to configure system processes and applications.  |add |
-| jar | (Java ARchive) is a package file format typically used to aggregate many Java class files and associated metadata and resources (text, images, etc.) into one file for distribution. |add |
-| xml | (Extensible Markup Language) data file. It is formatted much like an . HTML document, but uses custom tags to define objects and the data within each object. XML files can be thought of as a text-based database. | add |
-| twig | a PHP optimizing template engine; contains a template that will be generated into a specific final format, such as a HTML, JavaScript, XML, or CSS based file |add |
-| htc | HTC is a file extension for an HTML file used on the World Wide Web. HTC stands for HyperText markup language Components. HTC files contain both HTML code and HTML components. HTC files are used to define dynamic functions to be used across multiple HTML pages. |add |
-| tmpl | Template file used by Xfire, an instant messaging application for gamers; contains an HTML template file for displaying a user interface page |add |
-| svc | Text file that contains information about a Windows Communication Foundation (WCF) service that can be run using (IIS); includes a WCF-specific processing directive that activates hosted services in response to incoming messages. |add |
-| jspa | JSPA file type is primarily associated with WebWork. WebWork is a web application framework for J2EE. |add |
+| env | Adobe Acrobat and Acrobat Reader files. An ENV file holds spelling and format setting information | 
+| do | web-based Java program run by a web server that supports Java, such as Tomcat or IBM WebSphere |
+| conf | configuration or “config” file used on Unix and Linux based systems. It stores settings used to configure system processes and applications.  |
+| jar | (Java ARchive) is a package file format typically used to aggregate many Java class files and associated metadata and resources (text, images, etc.) into one file for distribution. |
+| xml | (Extensible Markup Language) data file. It is formatted much like an . HTML document, but uses custom tags to define objects and the data within each object. XML files can be thought of as a text-based database. | 
+| twig | a PHP optimizing template engine; contains a template that will be generated into a specific final format, such as a HTML, JavaScript, XML, or CSS based file |
+| htc | HTC is a file extension for an HTML file used on the World Wide Web. HTC stands for HyperText markup language Components. HTC files contain both HTML code and HTML components. HTC files are used to define dynamic functions to be used across multiple HTML pages. |
+| tmpl | Template file used by Xfire, an instant messaging application for gamers; contains an HTML template file for displaying a user interface page |
+| svc | Text file that contains information about a Windows Communication Foundation (WCF) service that can be run using (IIS); includes a WCF-specific processing directive that activates hosted services in response to incoming messages. |
+| jspa | JSPA file type is primarily associated with WebWork. WebWork is a web application framework for J2EE. |
 
 # Understanding Errors (Laravel, Symfony, Django)
 
