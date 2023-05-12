@@ -29,7 +29,7 @@
 |Application| Understand the service responding with the error message and try to make a more refined fuzz list to bring out more information or error details from that service (it could be a database, a standalone service, etc.). | 
 |Application| Try access host via IP, may trigger this also  | 
 
-## What tech(app,src,framew) may a target be using? (if hidden from basic footprinting)
+## filetypes indicators for apps/websrv/webf used by target:
 
 | common filetypes |what's likely in use| what info may hold (if known or relevant)|
 |-----:|---------------:|---------------:|
