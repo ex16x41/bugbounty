@@ -12,7 +12,9 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6c0a0a61-f853-4800-b8a3-c645332ee09d)
 
+# What data to look for for ?!
 
+sensitive file paths, database information, API keys, authentication tokens, configuration details, debug information, function names
 
 Tools:
 
