@@ -32,6 +32,14 @@ https://addons.mozilla.org/en-US/firefox/addon/link-gopher/
 
 ![image](https://user-images.githubusercontent.com/132210050/235364056-70f6dc63-8821-4c7a-a5e0-b3567fd5511b.png)
 
+### test output before filter 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/1d5e2b02-e0fa-4463-9c48-2a95d0aed19c)
+
+### test output after filter 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/f65bd0b0-b358-4d5e-aa1d-50fe02c9751d)
+
 
 # test for open redirect vulns via dorks 
 
