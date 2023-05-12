@@ -1,7 +1,7 @@
 # Where to dig thru? - medium/high/critical - low hangin fruit 
 JS files, HTML source code (comments, hrefs), function calls, API documentation, Configuration files, Server responses (errors, debug), 
 
-# ENDPOINST : How endpoints may be hiding ;^)
+# Endpoints: how may be hidden ;^)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/e10c0188-5af3-484e-b953-b5fee7cd0b72)
 
