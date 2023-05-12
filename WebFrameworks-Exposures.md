@@ -33,7 +33,7 @@
 
 | indicator | framework(s)|
 |-----:|---------------:|
-|got PHP files? | expect to see X       |
+|got PHP files in specific path order? | expect to see Laravel, Symfony, CodeIgniter, CakePHP, and Yii.      |
 
 
 # Understanding Errors (Laravel, Symfony, Django)
