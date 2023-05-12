@@ -1,3 +1,6 @@
+# What content to dig thru? 
+JS files, HTML source code (comments, hrefs),  
+
 # How endpoints may be hiding ;^)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/e10c0188-5af3-484e-b953-b5fee7cd0b72)
