@@ -8,10 +8,10 @@
 
 # types of redirects by design
 
-| types | meaning
-|:---:|:---:|
-| Internal or Local Redirects |  These redirects occur within the same website. They are used to redirect users from one page to another within the same domain. Internal redirects are commonly used for site maintenance, updating content, and improving navigation.| 
-| External Redirects | These redirects occur when a user is redirected to a page on a different website or domain. External redirects can be useful for linking to external resources, tracking clicks, and managing affiliate programs.| 
+| types | meaning | input
+|:---:|:---:|:---:|
+| Internal or Local Redirects |  These redirects occur within the same website. They are used to redirect users from one page to another within the same domain. Internal redirects are commonly used for site maintenance, updating content, and improving navigation.| can be great for testing for info exposure with local 127.x.x type/ trusted | 
+| External Redirects (high priority)| These redirects occur when a user is redirected to a page on a different website or domain. External redirects can be useful for linking to external resources, tracking clicks, and managing affiliate programs.| 
 
 
 # pivot from redir to other 
