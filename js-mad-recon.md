@@ -16,11 +16,22 @@ JS files, HTML source code (comments, hrefs), function calls, API documentation,
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6c0a0a61-f853-4800-b8a3-c645332ee09d)
 
 ## What else to look for on the high level: 
-| type |
-|:---:|
-| HTML/ JS sinks |
-|hidden parameters|
+| type |about
+|:---:|:---:|
+|JS sinks |JavaScript sinks refer to functions or APIs that are used to receive data from user input or external sources without proper validation or sanitization, making them vulnerable to attacks such as XSS (Cross-site scripting). Examples of JavaScript sinks include document.write(), innerHTML, and eval(). | 
+|HTML sinks| HTML sinks refer to HTML attributes that accept input from user or external sources without proper validation or sanitization, making them vulnerable to attacks such as XSS. Examples of HTML sinks include src, href, and onclick attributes. |
+|hidden params|
 
+## JS SINK SAMPLE
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/bc255539-ed34-401e-8209-caf7bed11ffa)
+
+In this example, prompt() is a JavaScript source that receives user input, and document.write() is a sink that displays the user input on the page without proper validation or sanitization, making it vulnerable to XSS attacks.
+
+## HTML SINK SAMPLE
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/444445e3-2ce6-4c81-aded-df457dba7f95)
+
+In this example, the href attribute is an HTML sink that executes a JavaScript code when the link is clicked. The code is vulnerable to XSS attacks because it displays the contents of the document.cookie object without proper validation or sanitization.
 
 # What data to look for for ?!
 
