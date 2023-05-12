@@ -21,7 +21,7 @@ The vulnerability in all types of redirect attacks (reflected, stored, and DOM-b
 | type |
 |:---:|
 | XSS |
-| XSS |
+| ATO |
 | XSS |
 | XSS |
 
