@@ -36,5 +36,7 @@ collector.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/collector.
 the gems are
 
 function calls 
+
 http requests
+
 The types of JavaScript files that may include hidden endpoints can vary, but commonly they include files related to AJAX requests, API integrations, user authentication, and data storage or retrieval. These files may be named in a way that suggests their purpose, such as "api.js", "ajax.js", "auth.js", or "data.js", but not necessarily.
