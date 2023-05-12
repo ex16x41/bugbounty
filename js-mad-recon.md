@@ -21,6 +21,14 @@ sensitive file paths, database information, API keys, authentication tokens, con
 
 The types of JavaScript files that may include hidden endpoints can vary, but commonly they include files related to AJAX requests, API integrations, user authentication, and data storage or retrieval. These files may be named in a way that suggests their purpose, such as "api.js", "ajax.js", "auth.js", or "data.js", but not necessarry
 
+check for aws keys in JavaScript files
+check for firebase URLs in JavaScript files
+check for Json file in JavaScript files
+check for aws s3 buckets in JavaScript files
+check for secrets in JavaScript files
+check for ip addresses in JavaScript files
+check for file upload fields in JavaScript files
+
 # Tools enum, list all js content, dig thru js content
 
 gau - https://github.com/lc/gau
@@ -45,14 +53,6 @@ jsbeautify.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/jsbeautif
 
 collector.py - https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/collector.py
 
-
-    awskeys- check for aws keys in JavaScript files
-    firebase-check for firebase URLs in JavaScript files
-    json_file-check for Json file in JavaScript files
-    s3-buckets-check for aws s3 buckets in JavaScript files
-    sec-check for secrets in JavaScript files
-    ip-check for ip addresses in JavaScript files
-    upload-fields-check for file upload fields in JavaScript files
 
 
 
