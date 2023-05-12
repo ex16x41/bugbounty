@@ -8,6 +8,7 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/d8a27130-eb3e-4668-b215-19d56de98336)
 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/cd452fdd-b069-4f05-a366-82155c8b295a)
 
 
 Tools:
