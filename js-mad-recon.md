@@ -36,25 +36,25 @@ In this example, the href attribute is an HTML sink that executes a JavaScript c
 # What data to look for for ?!
 
 | type |
-|:---:|
-| sensitive file paths |
-|database information| 
-|API keys| 
-|auth tokens| 
-|config data| 
-|debug info| 
-|func names| 
-|aws keys - js files|
-|firebase urls - js files |
-| json file in js file|
-|s3 buckets in js ref| 
-|secrets| 
-|paths|
-|ip addrs| 
-|file upload field in js ref|
-|URLs, domains, etc which can cause possible exploits|
-|Potential wildcard entries|
-|outdated or old frameworks with known vulnerabilities.|
+|:---:|:---:|
+|Sensitive data| sensitive file paths |
+|Sensitive data|database information| 
+|Sensitive data|API keys| 
+|Sensitive data|auth tokens| 
+|Sensitive data|config data| 
+|Sensitive data|debug info| 
+|Sensitive data|func names| 
+|Sensitive data|aws keys - js files|
+|Sensitive data|firebase urls - js files |
+|Sensitive data| json file in js file|
+|Sensitive data|s3 buckets in js ref| 
+|Sensitive data|secrets| 
+|Other|paths|
+|Other|ip addrs| 
+|Other|file upload field in js ref|
+|Other|URLs, domains, etc which can cause possible exploits|
+|Other|Potential wildcard entries|
+|Other|outdated or old frameworks with known vulnerabilities.|
 
 
 ## TIP :
