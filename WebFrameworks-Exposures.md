@@ -31,7 +31,7 @@
 
 ## What tech(app,src,framew) may a target be using? (if hidden from basic footprinting)
 
-| indicator |what's in use|
+| indicator |what's likely in use|
 |-----:|---------------:|
 |got PHP files in specific path order? | X      |
 |JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.|
