@@ -35,7 +35,7 @@ In this example, the href attribute is an HTML sink that executes a JavaScript c
 
 # What data to look for for ?!
 
-| type |
+| type | value |
 |:---:|:---:|
 |Sensitive data| sensitive file paths |
 |Sensitive data|database information| 
