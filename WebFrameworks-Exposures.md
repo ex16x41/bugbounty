@@ -35,7 +35,7 @@
 |-----:|---------------:|
 |got PHP files in specific path order? | CMS:WordPress, Joomla, and Drupal., WEBSRV:Apache, Nginx, and Microsoft IIS, WEBF:Laravel, Symfony, CodeIgniter, and Yii. DB:MySQL, PostgreSQL, and SQLite     |
 |JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.|
-| nsf files | 
+| nsf files | XPages, Lotus Notes, Lotus Domino | 
 
 # Understanding Errors (Laravel, Symfony, Django)
 
