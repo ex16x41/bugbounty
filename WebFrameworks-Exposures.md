@@ -34,7 +34,7 @@
 | indicator |what's in use|
 |-----:|---------------:|
 |got PHP files in specific path order? | X      |
-|JSP files | Spring, Struts, and JavaServer Faces (JSF).|
+|JSP files | Spring, Struts, and JavaServer Faces (JSF), Apache Tomcat, Jetty, GlassFish, JBoss, WebLogic, WebSphere, Resin.|
 
 
 # Understanding Errors (Laravel, Symfony, Django)
