@@ -88,6 +88,7 @@ https://addons.mozilla.org/en-US/firefox/addon/link-gopher/
 | inurl:?r2= |
 |redirect.html?open&url= |
 | redirects/redir.cgi?full_url= |
+|requestedurl=|
 
 
 # Note
