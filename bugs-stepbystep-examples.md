@@ -1,3 +1,5 @@
+# Weak Reset Password Implementation
+
 The bug name which I found was “Password Reset Link Not Expired After Use”. This comes under the VRT of “Insufficient Security Configurability >Weak Reset Password Implementation > Token Not Invalidated After Use”
 
 Steps To Find This Bug:
@@ -12,3 +14,24 @@ Impact/Exploit Scenario: If victim’s email account is still logged into his/he
 Severity: Now due to this difficult to happen exploit scenario , which requires user interaction it is given as a P4 bug under Bugcrowd VRT.
 
 Now this feature can be also used to sometimes chain it with other vulnerabilities, to get higher severity depending on the functionalities present in the website.
+
+
+
+
+# SXSS
+
+So in one of the subdomain of the program I received, had a feature of styling a page of app by adding different features and styles.
+Feature Page
+
+In there in each and every section like “ Name” , “A little about yourself” etc I injected XSS Payload “><img src=x onerror=alert(document.cookie)>
+Injected Payload
+
+Now as I clicked on “Add Content” I got XSS Pop Up.
+Payload Executed
+
+But here as you can see, it has no get parameters or anything or not even share feature, which I could use to send this to other user, otherwise this is right now Self Stored XSS, which is a P5/no-impact vulnerability☹️.
+
+So I started looking for ways with which I can increase the impact, or any methods I can send this page to other users, then the QR Code on the top right corner just caught my eye🧐, so I thought of testing it.
+
+As soon as I scanned this QR Code it opened up a site, In which my XSS payload executed😍, so finally I have converted Self XSS to Non-Self XSS hance now P2 severity😈.
+Non Self Executed XSS
