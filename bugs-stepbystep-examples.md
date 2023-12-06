@@ -22,16 +22,22 @@ Now this feature can be also used to sometimes chain it with other vulnerabiliti
 
 So in one of the subdomain of the program I received, had a feature of styling a page of app by adding different features and styles.
 Feature Page
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*Uofls0J7jc-7cNpzP7lkTA.png 
 
 In there in each and every section like “ Name” , “A little about yourself” etc I injected XSS Payload “><img src=x onerror=alert(document.cookie)>
 Injected Payload
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*qdNBuMn2vKRPexGdQzZ6Kg.png 
+
 
 Now as I clicked on “Add Content” I got XSS Pop Up.
 Payload Executed
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*AovyvCNKMe8N5qsCA-xx1g.png 
 
 But here as you can see, it has no get parameters or anything or not even share feature, which I could use to send this to other user, otherwise this is right now Self Stored XSS, which is a P5/no-impact vulnerability☹️.
 
 So I started looking for ways with which I can increase the impact, or any methods I can send this page to other users, then the QR Code on the top right corner just caught my eye🧐, so I thought of testing it.
 
 As soon as I scanned this QR Code it opened up a site, In which my XSS payload executed😍, so finally I have converted Self XSS to Non-Self XSS hance now P2 severity😈.
+
+https://miro.medium.com/v2/resize:fit:720/format:webp/1*Yuh6s-H2ZvWgrXLMDIQxlQ.png 
 Non Self Executed XSS
