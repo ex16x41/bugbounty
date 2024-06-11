@@ -52,3 +52,18 @@ HTTP Request and Response Headers containing "Content-Type: application/json, ap
 
 Also, watch for HTTP Responses that include statements like:
 {"message": "Missing Authorization token"}
+
+
+One of the most obvious indicators of an API would be through information gathered using third-Party Sources like Github and API directories.
+
+Gitub: https://github.com/ 
+
+Postman Explore: https://www.postman.com/explore/apis
+
+ProgrammableWeb API Directory: https://www.programmableweb.com/apis/directory 
+
+APIs Guru: https://apis.guru/ 
+
+Public APIs Github Project: https://github.com/public-apis/public-apis 
+
+RapidAPI Hub: https://rapidapi.com/search/ 
