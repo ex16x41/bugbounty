@@ -64,6 +64,17 @@ ProgrammableWeb API Directory: https://www.programmableweb.com/apis/directory
 
 APIs Guru: https://apis.guru/ 
 
+
+
+any api endpoints discovered and gathered in passive stage of recon will be used for active recon later 
+credential info will help test as auth'd user or admin 
+version info will help test for any improper asset mgmt vulns
+api documentation will say exactly how to test taregt api 
+
+
+
+
+
 Public APIs Github Project: https://github.com/public-apis/public-apis 
 
 RapidAPI Hub: https://rapidapi.com/search/ 
