@@ -1,0 +1,54 @@
+api recon 
+passive
+active 
+
+public apis with or without auth 
+auth for public apis will depend on sensitivity of data that is handled 
+if public api handles only public data = no need for auth 
+in most other instances auth will be required 
+public apis meant to be consumed by end users (to facilitate this api providers share documentatiton -> this servers as instruction manual for a given api)
+partner apis = meant to be used exclusively by partners of the provider = harder to find if not partner, documentation may be available but limited to partner 
+private apis only for private use within an org, documented less than partner apis if at all, if any documentation exists its harder to find = here learn how to reverse eng api req's 
+
+
+public apis = find apis to attack by discovering the api itself, or api documentation 
+if as end user you find api or and api documentation = success
+
+another way to find api is look trough target landing page for links to api or dev portal 
+
+
+some telling signs you discovered web api : 
+in URL naming formats example: 
+
+https://target-name.com/api/v1 
+
+https://api.target-name.com/v1 
+
+https://target-name.com/docs
+
+https://dev.target-name.com/rest
+
+Look for API indicators within directory names like:
+/api, /api/v1, /v1, /v2, /v3, /rest, /swagger, /swagger.json, /doc, /docs, /graphql, /graphiql, /altair, /playground
+
+Also, subdomains can also be indicators of web APIs:
+
+api.target-name.com
+
+uat.target-name.com
+
+dev.target-name.com
+
+developer.target-name.com
+
+test.target-name.com
+
+
+Another indicator of web APIs is the HTTP request and response headers. The use of JSON or XML can be a good indicator that you have discovered an API. 
+
+HTTP Request and Response Headers containing "Content-Type: application/json, application/xml"
+
+ 
+
+Also, watch for HTTP Responses that include statements like:
+{"message": "Missing Authorization token"}
