@@ -64,17 +64,28 @@ ProgrammableWeb API Directory: https://www.programmableweb.com/apis/directory
 
 APIs Guru: https://apis.guru/ 
 
+Public APIs Github Project: https://github.com/public-apis/public-apis 
 
+RapidAPI Hub: https://rapidapi.com/search/ 
 
 any api endpoints discovered and gathered in passive stage of recon will be used for active recon later 
 credential info will help test as auth'd user or admin 
 version info will help test for any improper asset mgmt vulns
 api documentation will say exactly how to test taregt api 
 
+info on api business purpose can give insight into business logic flaws 
+
+with OSINT (passive recon) you can find API keys, creds, JWT, secrets, leaked PII, sensitive info, etc 
+
+passive recon tools 
+git dorks
+google dorks
+api dirs
+wayback 
+shodan 
 
 
 
+active recon on apis is basically building your api attack surface directly from target 
 
-Public APIs Github Project: https://github.com/public-apis/public-apis 
 
-RapidAPI Hub: https://rapidapi.com/search/ 
