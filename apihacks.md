@@ -85,7 +85,10 @@ wayback
 shodan 
 
 
-
 active recon on apis is basically building your api attack surface directly from target 
 
 
+active recon tools 
+nmap -p-
+nmap -sC -sV target
+amass enum -active -d target | grep api
