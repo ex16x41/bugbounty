@@ -137,6 +137,9 @@ The server access logs in Amazon S3 typically include the following information:
 |  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
 |   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
 |Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+| Content-Security-Policy Response headers | * | 
+| Burp Suite | spider > go trough resulst | 
+
 
 **Visual examples:**
 
