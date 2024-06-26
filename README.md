@@ -56,6 +56,8 @@ https://github.com/nahamsec/lazys3/
 
 **read permissions** 
 this can lead to information exposure because of these configurations on the bucket 
+If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli)
+
 ![238650811-153094c1-fd57-4134-994b-9ea9e9ca1fc9](https://github.com/ex16x41/bugbounty/assets/44981946/48a7f966-77d6-4646-a382-28c09a29f2fb)
 
 
