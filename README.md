@@ -108,7 +108,7 @@ The server access logs in Amazon S3 typically include the following information:
 
 
 
-**example URL two (here the url format is amazon.targetbucket)** here to read bucket we would do s3://
+**example URL two (here the url format is amazon.targetbucket)** here to read bucket we would do s3://capitalbikeshare-data
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
 
