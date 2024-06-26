@@ -28,9 +28,7 @@
 
 
 
-
-
-# How and where to find buckets directly on target?
+# How and where to find buckets directly on target? manually
 
 **view source code (S3 Bucket URL hardcoded in HTML of webpage)**
 
@@ -47,6 +45,12 @@
 **3rd party sites like git rep/code**
 
 **bruteforce** 
+
+
+# Find s3 buckets using tools 
+
+https://github.com/nahamsec/lazys3/ 
+
 
 # Type of bugs to look for on s3 by most common first
 
