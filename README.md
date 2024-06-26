@@ -77,6 +77,16 @@ aws s3api get-object-acl --bucket [bucketname] --key index.html --no-sign-reques
 **notes:**
 some buckets will allow ls using --no-sign-request but will not allow download of files from it (forbidden) 
 
+
+# Let's talk about non direct recon 
+
+**here we have two options, one is google dorks, another is 3rd party site tools** 
+
+**tools** 
+https://buckets.grayhatwarfare.com/ - some paid features 
+
+
+
 **dorks:**
 site:http://s3.amazonaws.com intitle:index.of.bucket
 site:http://amazonaws.com inurl:".s3.amazonaws.com/"
