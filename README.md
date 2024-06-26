@@ -25,7 +25,7 @@
 
 # How and where to find buckets directly on target?
 
-**view source code**
+**view source code (S3 Bucket URL hardcoded in HTML of webpage)**
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
 
