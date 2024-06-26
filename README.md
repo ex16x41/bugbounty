@@ -6,58 +6,6 @@
 I have not seen anything as comprehensive as this, therefore I created this guide, on everything from a to z about s3 hacking and understanding how it works, the commands we try and why some work some don't. enjoy.
 
 
-
-# First let's identify how s3 buckets look like in real life? we have multiple scenarios
-
-**example URL one (here the url format is targetbucket.amazon)**
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
-
-
-
-**example URL two (here the url format is amazon.targetbucket)**
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
-
-
-
-
-**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)**
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
-
-
-
-**example URL four (here the name of the subdomain and bucket name match)** 
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/d15189e3-646b-4b7a-914a-c2c5f189892a)
-
-
-
-# How and where to find buckets directly on target? manually
-
-**view source code (S3 Bucket URL hardcoded in HTML of webpage)**
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
-
-**inspect network traffic - see server GET requests** (can filter keyword as per usual url formats)
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
-
-# other methods to find s3 buckets 
-
-**reverse IP lookup** 
-
-**3rd party sites like git rep/code**
-
-**bruteforce** 
-
-
-# Find s3 buckets using tools 
-
-https://github.com/nahamsec/lazys3/ 
-
-
 ## Understanding terms 
 
 
@@ -162,6 +110,55 @@ The server access logs in Amazon S3 typically include the following information:
 |  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
 |   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
 |Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+
+
+# First let's identify how s3 buckets look like in real life? we have multiple scenarios
+
+**example URL one (here the url format is targetbucket.amazon)**
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
+
+
+
+**example URL two (here the url format is amazon.targetbucket)**
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
+
+
+
+
+**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)**
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
+
+
+
+**example URL four (here the name of the subdomain and bucket name match)** 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/d15189e3-646b-4b7a-914a-c2c5f189892a)
+
+
+
+# How and where to find buckets directly on target? manually
+
+**view source code (S3 Bucket URL hardcoded in HTML of webpage)**
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
+
+**inspect network traffic - see server GET requests** (can filter keyword as per usual url formats)
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
+
+# other methods to find s3 buckets 
+
+**reverse IP lookup** 
+
+**3rd party sites like git rep/code**
+
+**bruteforce** 
+
+**tools**
+https://github.com/nahamsec/lazys3/ 
 
 
 ## Misconfiguration Types to look for
