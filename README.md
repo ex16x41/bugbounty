@@ -6,12 +6,21 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
 
+
+
+
 **example URL two (here the url format is amazon.targetbucket)**
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
 
+
+
+
 **example URL three (here the domain is not revealing the bucket directly, but instead under name tags)**
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
+
+
 
 
 # How and where to find buckets directly on target?
