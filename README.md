@@ -202,7 +202,7 @@ ls admin folder + contents (that wasnt accessible as --no-sign-request)
 
 
 
-# 404 no such bucket 
+# 404 no such bucket to subdomain takeover
 
 developer delete s3 bucket but not delete cname pointing to that s3 bucket
 
