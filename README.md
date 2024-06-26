@@ -1,5 +1,5 @@
 
-# Cloud AWS Recon & Hacking (s3) ;^)  -if you find bugs using this rep, credit <3
+# Cloud AWS Recon & Hacking (s3) ;^)  -if you find bugs using this rep, credit <3 (this is only s3 focused, this doc will also include other aws products hacking, azure, gcp)
 
 
 # Understanding S3 from the inside (for bugbounty)
