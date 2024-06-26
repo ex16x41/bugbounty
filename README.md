@@ -44,7 +44,9 @@
 # Type of bugs to look for on s3 by most common first
 
 **exploiting poor permission configuration** 
+
 **information exposure** 
+
 **s3 takeover** 
 
 # commands to run tests with
