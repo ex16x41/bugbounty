@@ -1,6 +1,6 @@
 # Cloud AWS Recon & Hacking (s3) ;^)  -if you find bugs using this rep, credit <3
 
-# First let's identify how s3 buckets look like in practice?
+# First let's identify how s3 buckets look like in real life? we have multiple scenarios
 
 **example URL one (here the url format is targetbucket.amazon)**
 
