@@ -49,6 +49,10 @@
 
 **s3 takeover** 
 
+
+
+
+
 # commands to run tests with
 
 **list contents of bucket aws** s3 ls s3://bucket --no-sign-request
@@ -65,6 +69,10 @@ good to test --recrusive if there is folder forbidden for ls
 
 curl -I https://s3.amazonaws.com/bucket - this will show region configured in this bucket
 
+Identify overly permissive policies (e.g., Action set to "*")
+
+
+
 
 
 # Read access control list
@@ -76,8 +84,11 @@ aws s3api get-bucket-acl --bucket [bucketname] --no-sign
 aws s3api get-object-acl --bucket [bucketname] --key index.html --no-sign-request
 
 
+
+
 **notes:**
 some buckets will allow ls using --no-sign-request but will not allow download of files from it (forbidden) 
+
 
 
 # Let's talk about non direct recon 
