@@ -181,7 +181,7 @@ found admin keys
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/c5f53c34-b5bb-4e0f-a917-ad12de0e7b65)
 
 
-aws configure admin keys
+aws configure (auth with admin keys)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f44146b-a4c6-4673-96c4-2fd556497804)
 
