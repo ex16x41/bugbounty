@@ -16,9 +16,16 @@
 
 
 
-**example URL three (here the domain is not revealing the bucket directly, but instead under name tags)**
+**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)**
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
+
+
+
+**example URL four (here the name of the subdomain and bucket name match)** 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/d15189e3-646b-4b7a-914a-c2c5f189892a)
+
 
 
 
