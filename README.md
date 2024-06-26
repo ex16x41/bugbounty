@@ -166,6 +166,14 @@ AWS S3 comes equipped with a range of permissions and access control mechanisms 
 Misconfigured AWS S3 buckets that leave unauthorized access are thus abused by attackers to compromise the privacy of the data stored in those buckets breaching the privacy of millions of users around the world. If the case misconfigured S3 Bucket contains EC2 snapshot instances, then attackers might be able to retrieve the snapshot instance and then get security keys for the EC2 instance itself. 
 
 
+# public access abuse case 1 
+
+**access from web gives "nosuchkey", but with --no-sign-request it works** 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/afd0df70-39d5-4322-a1a5-74028401f187)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/9d87809b-e761-4f9e-875f-af42a87f1c94)
+
+
+
 # Discover vuln/exposed/misconfig'd s3 buckets
 
 ## Sources for external search (osint only)
