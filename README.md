@@ -36,7 +36,9 @@
 # other methods to find s3 buckets 
 
 **reverse IP lookup** 
+
 **3rd party sites like git rep/code**
+
 **bruteforce** 
 
 # Type of bugs to look for on s3 by most common first
