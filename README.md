@@ -1,12 +1,15 @@
 # Cloud AWS Recon & Hacking (s3) ;^)  -if you find bugs using this rep, credit <3
 
-**First let's identify how s3 buckets look like in practice**
+# First let's identify how s3 buckets look like in practice?
 
 **example URL one (here the url format is targetbucket.amazon)**
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
 
 **example URL two (here the url format is amazon.targetbucket)**
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
+
+
+# How and where to find buckets directly on target?
 
 **view source code**
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
