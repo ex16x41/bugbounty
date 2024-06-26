@@ -202,6 +202,33 @@ ls admin folder + contents (that wasnt accessible as --no-sign-request)
 
 
 
+# 404 no such bucket 
+
+developer delete s3 bucket but not delete cname pointing to that s3 bucket
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6f3fb260-489f-4fd1-b587-98b7036684be)
+
+use this https://github.com/EdOverflow/can-i-take-over-xyz?source=post_page-----81a68823af74-------------------------------- 
+
+    Go to S3 panel
+    Click Create Bucket
+    Set Bucket name to source domain name (i.e., the domain you want to take over from error)
+    Click Next multiple times to finish
+    Open the created bucket
+    Click Upload
+    Select the file which will be used for PoC (HTML or TXT file). I recommend naming it differently than index.html; you can use poc (without extension)
+    In Permissions tab select Grant public read access to this object(s)
+    After upload, select the file and click More -> Change metadata
+    Click Add metadata, select Content-Type and value should reflect the type of document. If HTML, choose text/html, etc.
+    (Optional) If the bucket was configured as a website
+    Switch to Properties tab
+    Click Static website hosting
+    Select Use this bucket to host a website
+    As an index, choose the file that you uploaded
+    Click Save
+
+
+
 
 # commands to run tests with
 
