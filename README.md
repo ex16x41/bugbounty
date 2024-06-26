@@ -10,6 +10,9 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
 
+**example URL three (here the domain is not revealing the bucket directly, but instead under name tags)**
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
+
 
 # How and where to find buckets directly on target?
 
@@ -27,21 +30,21 @@
 **3rd party sites like git rep/code**
 **bruteforce** 
 
-# Type of attacks on s3 by most common first
+# Type of bugs to look for on s3 by most common first
 
 **exploiting poor permission configuration** 
 **information exposure** 
 **s3 takeover** 
-**
 
+# commands to run tests with
 
-**Got a target?** 
+**list contents of bucket aws** s3 ls s3://bucket --no-sign-request
 
-list contents of bucket aws s3 ls s3://bucket --no-sign-request
+**recsuisively list files** aws s3 ls s3://bucket --no-sign-request --recursive
 
-aws s3 ls s3://bucket --no-sign-request --recursive
+**download files test** aws s3 cp s3://bucket/folder/file . --no-sign-request
 
-aws s3 cp s3://bucket/folder/file . --no-sign-request
+**upload file test permissions** aws s3 cp localfile s3://[name_of_bucket]/test_file.txt –-no-sign-request
 
 to list dirs close with /dir/
 
@@ -49,9 +52,19 @@ good to test --recrusive if there is folder forbidden for ls
 
 curl -I https://s3.amazonaws.com/bucket - this will show region configured in this bucket
 
+
+
+# Read access control list
+
+At bucket, level allows to read the bucket’s Access Control List and at the object level allows to read the object’s Access Control List. Read ACL can be tested with the AWS command line using the following command
+
+aws s3api get-bucket-acl --bucket [bucketname] --no-sign
+
+aws s3api get-object-acl --bucket [bucketname] --key index.html --no-sign-request
+
+
 **notes:**
 some buckets will allow ls using --no-sign-request but will not allow download of files from it (forbidden) 
-
 
 **dorks:**
 site:http://s3.amazonaws.com intitle:index.of.bucket
