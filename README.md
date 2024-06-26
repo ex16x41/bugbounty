@@ -54,7 +54,7 @@ https://github.com/nahamsec/lazys3/
 
 # Type of bugs to look for on s3 by most common first
 
-**read permissions** 
+**read permissions > list files/ info exposure** 
 this can lead to information exposure because of these configurations on the bucket 
 If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli)
 
