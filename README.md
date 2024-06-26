@@ -1,3 +1,4 @@
+
 # Cloud AWS Recon & Hacking (s3) ;^)  -if you find bugs using this rep, credit <3
 
 
@@ -159,6 +160,12 @@ The server access logs in Amazon S3 typically include the following information:
 |   Lack of encryption | If data stored in S3 buckets is not encrypted, it may be vulnerable to interception or theft. S3 supports several types of encryption, including server-side encryption and client-side encryption. |
 |Insecure pre-signed URLs | S3 allows users to generate pre-signed URLs that grant temporary access to specific objects or resources. If these URLs are leaked or improperly secured, attackers may be able to use them to access sensitive data.|  
 |Cross-origin resource sharing (CORS) misconfiguration | If CORS settings are misconfigured, attackers may be able to bypass same-origin policy protections and access data stored in S3 buckets.|  
+
+# Interesting file types to look for in s3 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
+
+PS1, XML, TXT
 
 
 AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
