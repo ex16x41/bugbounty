@@ -140,7 +140,7 @@ The server access logs in Amazon S3 typically include the following information:
 
 **Visual examples:**
 
-**view source code (S3 Bucket URL hardcoded in HTML of webpage)**
+**view source code (S3 Bucket URL hardcoded in HTML of webpage also... in IP addresses to, not only www.domain.com format)**
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
 
