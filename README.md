@@ -102,26 +102,26 @@ The server access logs in Amazon S3 typically include the following information:
 
 # First let's understand how s3 buckets look like in real life? we have multiple scenarios
 
-**example URL one (here the url format is targetbucket.amazon)**
+**example URL one (here the url format is targetbucket.amazon)** here to read bucket we would do s3://
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
 
 
 
-**example URL two (here the url format is amazon.targetbucket)**
+**example URL two (here the url format is amazon.targetbucket)** here to read bucket we would do s3://
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
 
 
 
 
-**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)**
+**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)** here to read bucket we would do s3://dpa-prd
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
 
 
 
-**example URL four (here the name of the subdomain and bucket name match)** 
+**example URL four (here the name of the subdomain and bucket name match)** here to read bucket we would do s3://flaws-cloud
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/d15189e3-646b-4b7a-914a-c2c5f189892a)
 
