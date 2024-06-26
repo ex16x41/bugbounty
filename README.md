@@ -58,30 +58,6 @@ I have not seen anything as comprehensive as this, therefore I created this guid
 https://github.com/nahamsec/lazys3/ 
 
 
-# Type of bugs to look for on s3 by most common first
-
-**read permissions to AWS accounts > list files/ info exposure** 
-this can lead to information exposure because of these configurations on the bucket 
-If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli)
-
-![238650811-153094c1-fd57-4134-994b-9ea9e9ca1fc9](https://github.com/ex16x41/bugbounty/assets/44981946/48a7f966-77d6-4646-a382-28c09a29f2fb)
-
-test reading acl
-
-![238652279-9e9c062a-c449-4acd-8f0b-c55e31a98553](https://github.com/ex16x41/bugbounty/assets/44981946/78686cc0-04f8-47cf-96b1-b7628e13d20e)
-
-The unique ID numbers associated with AWS entities, such as owners or grantees, are internal identifiers used by AWS for tracking and managing permissions. These IDs alone do not provide any direct means to bypass permissions or launch attacks.
-
-with --no-sign-request does not work because of configuration
-
-![238656830-2a5fa2aa-6c05-41bd-8aa5-22d9e665ab13](https://github.com/ex16x41/bugbounty/assets/44981946/2556ad2c-934b-403d-84ce-7bdeea157f10)
-
-this one is used to enumerate the contents of your bucket and gather information about the exposed files and directories.
-
-![238659097-c04d4713-789e-4dab-9c76-d020912dc500](https://github.com/ex16x41/bugbounty/assets/44981946/deab9457-e7b6-4ed7-b38a-93dee053f4b5)
-
-
-
 ## Understanding terms 
 
 
