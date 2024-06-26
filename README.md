@@ -100,19 +100,7 @@ The server access logs in Amazon S3 typically include the following information:
 ![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/efb39c3c-2634-4853-986f-dae6b6ad714c)
 
 
-
-## Step 1 -  dig for buckets manually
-
-| Method | Detail if available|
-|-----:|---------------:|
-|    HTML inspection, CSS & JS files, comments | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"     |
-|   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
-|  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
-|   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
-|Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
-
-
-# First let's identify how s3 buckets look like in real life? we have multiple scenarios
+# First let's understand how s3 buckets look like in real life? we have multiple scenarios
 
 **example URL one (here the url format is targetbucket.amazon)**
 
@@ -139,7 +127,17 @@ The server access logs in Amazon S3 typically include the following information:
 
 
 
-# How and where to find buckets directly on target? manually
+## Step 1 -  dig for buckets manually
+
+| Method | Detail if available|
+|-----:|---------------:|
+|    HTML inspection, CSS & JS files, comments | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"  you can also use linkfinder to find endpoints/hyperlinks or use linkgopher   |
+|   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
+|  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
+|   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
+|Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+
+**Visual examples:**
 
 **view source code (S3 Bucket URL hardcoded in HTML of webpage)**
 
@@ -149,16 +147,6 @@ The server access logs in Amazon S3 typically include the following information:
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
 
-# other methods to find s3 buckets 
-
-**reverse IP lookup** 
-
-**3rd party sites like git rep/code**
-
-**bruteforce** 
-
-**tools**
-https://github.com/nahamsec/lazys3/ 
 
 
 ## Misconfiguration Types to look for
