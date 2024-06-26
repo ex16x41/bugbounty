@@ -102,7 +102,7 @@ The server access logs in Amazon S3 typically include the following information:
 
 # First let's understand how s3 buckets look like in real life? we have multiple scenarios
 
-**example URL one (here the url format is targetbucket.amazon)** here to read bucket we would do s3://
+**example URL one (here the url format is targetbucket.amazon)** here to read bucket we would do s3://divvy-tripdata
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
 
