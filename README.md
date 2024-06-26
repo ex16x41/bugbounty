@@ -188,7 +188,8 @@ aws configure (auth with admin keys)
 
 ls admin folder + contents (that wasnt accessible as --no-sign-request) 
 
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/e4aca5ce-85b6-4bec-9436-1864ccaa6c52)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6511db37-76d0-42c3-957f-153f48dcd0dd)
+
 
 
 
