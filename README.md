@@ -177,10 +177,17 @@ Misconfigured AWS S3 buckets that leave unauthorized access are thus abused by a
 
 **find file with admin creds, login, access further folders/files that were otherwise restricted** 
 found admin keys
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/c5f53c34-b5bb-4e0f-a917-ad12de0e7b65)
+
+
 aws configure admin keys
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f44146b-a4c6-4673-96c4-2fd556497804)
+
+
 ls admin folder + contents (that wasnt accessible as --no-sign-request) 
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/e4aca5ce-85b6-4bec-9436-1864ccaa6c52)
 
 
