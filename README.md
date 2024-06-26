@@ -110,9 +110,6 @@ The actions and commands that are successfully executed epend entirely on the co
 this is why when attempting a read of acp (policy) we dont get access 
 ![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/43f913a9-15c8-415f-aeda-cf6db032e6b6)
 
-
-## CASE2: configured write access to everyone (public)
-
 # Information stored in logs during upload/download/access 
 
 The server access logs in Amazon S3 typically include the following information:
