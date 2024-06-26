@@ -3,7 +3,7 @@
 
 # Understanding S3 from the inside (for bugbounty)
 
-I have not seen anything as comprehensive as this, therefore I created this guide, on everything from a to z about s3 hacking and understanding how it works, the commands we try and why some work some don't. enjoy.
+I have not seen anything as comprehensive as this, therefore I created this guide, on everything from a to z about s3 hacking and understanding how it works, the commands we try and why some work some don't. everything here tested by me, configured, and 'hacked', so you can see how misconfigs look like form the inside, their cause, etc. learn, practice, enjoy.
 
 
 ## Understanding terms 
