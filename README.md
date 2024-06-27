@@ -32,7 +32,8 @@ Fun fact: most permission misconfigurations happen because bucket owner configur
 ## CASE1: configured read access to aws accounts
 * If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/153094c1-fd57-4134-994b-9ea9e9ca1fc9)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/40768724-0de8-4bcf-9713-cb1c59e9b5da)
+
 
 test reading acl 
 
