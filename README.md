@@ -236,6 +236,8 @@ use this https://github.com/EdOverflow/can-i-take-over-xyz?source=post_page-----
 
 https://github.com/WeAreCloudar/s3-account-search/
 
+issue the command python3 -m pip install s3-account-search to install the tool s3-account-search. Next we need to provide the Amazon Resource Name (ARN) of the role under our control (i.e. in our own AWS account), as well as a target S3 bucket in the AWS account whose ID we want to enumerate.
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/ff25e10b-135e-4952-9a9e-a8990c683c9e)
 
 
