@@ -44,7 +44,8 @@ The unique ID numbers associated with AWS entities, such as owners or grantees, 
 
 with --no-sign-request does not work because of configuration 
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/2a5fa2aa-6c05-41bd-8aa5-22d9e665ab13)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/cf5a21f5-e028-4448-ab68-3a07004d0423)
+
 
 this one is used to enumerate the contents of your bucket and gather information about the exposed files and directories.
 
@@ -54,13 +55,18 @@ this one is used to enumerate the contents of your bucket and gather information
 ## CASE2: configured read access to everyone (public)
 * If internally the bucket permissions enabled only to everyone (all public) users then can use --no-sign-request and with creds also
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/e9144253-1433-402f-a157-9b0ca48efbe1)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/14da7b3a-c6fd-42bf-949d-27b895ed029e)
+
 
 The actions and commands that are successfully executed epend entirely on the configuration of permissions, for example this setting is configured to everyone allowed to list but not read ACP
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/59531fb7-6224-4e6f-9ec3-d7e709839510)
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/eaeca588-6520-4993-8323-94ed89911d93)
+
 
 this is why when attempting a read of acp (policy) we dont get access 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/43f913a9-15c8-415f-aeda-cf6db032e6b6)
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f075d0f-e117-4ecb-adb5-1ee922c39324)
+
 
 # Information stored in logs during upload/download/access 
 
@@ -85,23 +91,18 @@ The server access logs in Amazon S3 typically include the following information:
     
 ## Inside view of poorly configured bucket, some things to keep in mind     
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/801c418d-e029-4a4c-8df6-79d5ca8259cf)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/386f6eec-62b5-49dc-a46c-094eff6ed1b6)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/324ca66f-6db1-4bc7-8d4e-40ba852fe9ef)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/e85e78ed-ca71-401c-9ce5-931d5d9d1f2b)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/4f04ca00-a5a7-46e2-bde5-2dff5c1d2582)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/67d2eecb-6a8b-46c9-8e4e-c8852108ed73)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/241876d1-629d-49e6-9c2c-56d745009c41)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/fb673ad2-1bfb-4e1f-83ff-13bb8c5ff29e)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/f4557965-4ea5-48b2-ad49-a3b3fc202306)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/2f13e7ee-13cb-4bf1-9964-797e727f32cc)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/df0ce2a5-e994-4dbd-8121-c966c25a1256)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/d9be2bfb-e68e-4d76-8c50-e689c3fff4c1)
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/bda254aa-0495-4858-8a1d-257e8b57d6d5)
-
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/48a253af-eed6-40f6-93c2-b55fb7f7c50d)
-
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/efb39c3c-2634-4853-986f-dae6b6ad714c)
 
 
 # First let's understand how s3 buckets look like in real life? we have multiple scenarios
