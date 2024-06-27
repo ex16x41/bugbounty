@@ -60,7 +60,8 @@ this one is used to enumerate the contents of your bucket and gather information
 
 The actions and commands that are successfully executed epend entirely on the configuration of permissions, for example this setting is configured to everyone allowed to list but not read ACP
 
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/eaeca588-6520-4993-8323-94ed89911d93)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/291331c2-762d-42aa-ac24-70e4e9664ccf)
+
 
 
 this is why when attempting a read of acp (policy) we dont get access 
