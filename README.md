@@ -102,7 +102,8 @@ The server access logs in Amazon S3 typically include the following information:
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/2f13e7ee-13cb-4bf1-9964-797e727f32cc)
 
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/d9be2bfb-e68e-4d76-8c50-e689c3fff4c1)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/18ff1b85-ea72-4f21-9936-07161360cd26)
+
 
 
 
