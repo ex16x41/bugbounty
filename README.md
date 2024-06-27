@@ -243,6 +243,14 @@ issue the command python3 -m pip install s3-account-search to install the tool s
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/ff25e10b-135e-4952-9a9e-a8990c683c9e)
 
 
+
+TO ADD: 
+IAM abuse cases 
+add from 
+https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iam-and-sts-unauthenticated-enum 
++ 
+https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools
+
 # commands to run tests with
 
 **list contents of bucket aws** s3 ls s3://bucket --no-sign-request
