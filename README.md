@@ -232,6 +232,11 @@ use this https://github.com/EdOverflow/can-i-take-over-xyz?source=post_page-----
     Click Save
 
 
+# exploit EBS snapshots by AWS acc ID 
+
+https://github.com/WeAreCloudar/s3-account-search/
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/ff25e10b-135e-4952-9a9e-a8990c683c9e)
 
 
 # commands to run tests with
