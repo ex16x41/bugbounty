@@ -37,7 +37,8 @@ Fun fact: most permission misconfigurations happen because bucket owner configur
 
 test reading acl 
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/9e9c062a-c449-4acd-8f0b-c55e31a98553)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/e2dad919-eb6f-413a-ae7a-406501fbb899)
+
 
 The unique ID numbers associated with AWS entities, such as owners or grantees, are internal identifiers used by AWS for tracking and managing permissions. These IDs alone do not provide any direct means to bypass permissions or launch attacks.
 
