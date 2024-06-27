@@ -48,7 +48,8 @@ with --no-sign-request does not work because of configuration
 
 this one is used to enumerate the contents of your bucket and gather information about the exposed files and directories.
 
-![image](https://github.com/ex16x41/OSINT-mine/assets/44981946/c04d4713-789e-4dab-9c76-d020912dc500)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/85f2fff8-9184-4fce-bac3-62186716cd91)
+
 
 ## CASE2: configured read access to everyone (public)
 * If internally the bucket permissions enabled only to everyone (all public) users then can use --no-sign-request and with creds also
