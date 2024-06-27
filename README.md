@@ -168,7 +168,7 @@ The server access logs in Amazon S3 typically include the following information:
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
 
-PS1, XML, TXT
+PS1, XML, TXT, CSV
 
 
 AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
@@ -247,6 +247,8 @@ good to test --recrusive if there is folder forbidden for ls
 curl -I https://s3.amazonaws.com/bucket - this will show region configured in this bucket
 
 Identify overly permissive policies (e.g., Action set to "*")
+
+If you go to URL to see bucket content at root domain like bucket.amazon.com/ (ensure there is no double // because that will show 'nosuchbucket')
 
 
 
