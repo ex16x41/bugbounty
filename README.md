@@ -292,6 +292,8 @@ issue the command python3 -m pip install s3-account-search to install the tool s
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/ff25e10b-135e-4952-9a9e-a8990c683c9e)
 
+writeable (upload malicious poc file)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/3e485e0b-9330-4ab4-b42a-c8e8e91e6755)
 
 
 TO ADD: 
