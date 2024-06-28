@@ -17,15 +17,7 @@ I have not seen anything as comprehensive as this, therefore I created this guid
 |  Object  | any item inside a bucket |
 
 
-## AWS CLI S3 Enumeration Commands
-
-| Command | Detail (if available) |
-|-----:|---------------:|
-|   Bucket | a top-level Amazon S3 folder  |
-|   Prefix | a folder in a bucket |
-|  Object  | any item inside a bucket |
-
-## AWS CLI S3 Exploitation Commands
+## AWS CLI S3 Enumeration & Exploitation Commands
 
 | Command | Detail (if available) |
 |-----:|---------------:|
