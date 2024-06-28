@@ -55,6 +55,10 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/b895255e-7013-4a32-89a2-12f6b87831c6)
 
+**using LeakIX premium plugins + query leaks find buckets + access keys** 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/f20d3a19-9219-4cbf-917d-a681c46e7e6b)
+
 
 
 ## Important notes on access related actions to public or "semi public" buckets
