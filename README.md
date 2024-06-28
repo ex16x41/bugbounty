@@ -20,6 +20,7 @@
 |  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
 |   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
 |enum via Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+| other tools to enum s3 | https://github.com/sa7mon/S3Scanner , https://github.com/clario-tech/s3-inspector , https://github.com/jordanpotti/AWSBucketDump (Contains a list with potential bucket names) , https://github.com/fellchase/flumberboozle/tree/master/flumberbuckets , https://github.com/smaranchand/bucky , https://github.com/tomdev/teh_s3_bucketeers , https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools/s3 , https://github.com/Eilonh/s3crets_scanner , https://github.com/belane/CloudHunter| 
 | Content-Security-Policy Response headers | * | 
 | Burp Suite | spider > go trough resulst | 
 | dig -x | target domain or IP will result in s3-site-us-east-1.amazonaws.com | 
