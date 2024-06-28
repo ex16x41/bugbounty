@@ -7,29 +7,49 @@
 I have not seen anything as comprehensive as this, therefore I created this guide, on everything from a to z about s3 hacking and understanding how it works, the commands we try and why some work some don't. everything here tested by me, configured, and 'hacked', so you can see how misconfigs look like form the inside, their cause, etc. learn, practice, enjoy.
 
     
- ## Configuring an S3 bucket securely consists of 3 major categories. 
-
-    IAM roles creation and Assignment 
-
-    Public and Private availability with Read / Write access in Bucket policies 
-
-    Access Control lists 
-
-
 
 ## Step 1 : Get familiar with terms / concepts
 
-| Method | Detail if available|
+| Term | Detail (if available) |
 |-----:|---------------:|
 |   Bucket | a top-level Amazon S3 folder  |
 |   Prefix | a folder in a bucket |
 |  Object  | any item inside a bucket |
 
 
+## AWS CLI S3 Enumeration Commands
+
+| Command | Detail (if available) |
+|-----:|---------------:|
+|   Bucket | a top-level Amazon S3 folder  |
+|   Prefix | a folder in a bucket |
+|  Object  | any item inside a bucket |
+
+## AWS CLI S3 Exploitation Commands
+
+| Command | Detail (if available) |
+|-----:|---------------:|
+|   Bucket | a top-level Amazon S3 folder  |
+|   Prefix | a folder in a bucket |
+|  Object  | any item inside a bucket |
 
 
+## AWS CLI IAM Enumeration & Exploitation Commands
+
+| Command | Detail (if available) |
+|-----:|---------------:|
+|   Bucket | a top-level Amazon S3 folder  |
+|   Prefix | a folder in a bucket |
+|  Object  | any item inside a bucket |
 
 
+## AWS CLI ID Exploitation Commands (Get Keys)
+
+| Command | Detail (if available) |
+|-----:|---------------:|
+|   Bucket | a top-level Amazon S3 folder  |
+|   Prefix | a folder in a bucket |
+|  Object  | any item inside a bucket |
 
 
 
@@ -347,3 +367,10 @@ site:http://s3.amazonaws.com intitle:Bucket loading
 site:*.amazonaws.com inurl:index.html
 
 Bucket Date Modified
+
+
+
+
+LABS to practice 
+
+https://pwnedlabs.io/dashboard 
