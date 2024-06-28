@@ -30,15 +30,6 @@
 | https://buckets.grayhatwarfare.com/ | * | 
 | Google dorks | site:http://s3.amazonaws.com intitle:index.of.bucket, site:http://amazonaws.com inurl:".s3.amazonaws.com/", site:.s3.amazonaws.com "Company" intitle:index.of.bucket, site:http://s3.amazonaws.com intitle:Bucket loading , site:*.amazonaws.com inurl:index.html,  Bucket Date Modified | 
 
-## Important notes on access related actions to public or "semi public" buckets
-
-| Note | Detail (if available) |
-|-----:|---------------:|
-| To access the bucket you can try from web (browser) navigate and open in URL the target bucket instance | this can look like in the format of amazonaws domain like [bucket].s3.amazonaws OR s3.amazonaws/[bucket] OR subdomain.targetdomain.tld | 
-| to access via aws cli | you can use command aws s3 ls s3://bucket to list all contents including --no-sign-request at the end of the command, because otherwise some buckets due to config may present 'accessdenied' or 'nosuchbucket' - but with the '--no-sign-request' it may in a sense bypass that | 
-|   https://github.com/redhuntlabs/BucketLoot | Bucket inspector that can help users extract assets, flag secret exposures and even search for custom keywords as well as Regular Expressions from publicly-exposed storage buckets by scanning files that store data in plain-text.  |
-
-
 ## Visual Examples of all methods above to identify s3 buckets (how it looks like in practice)
 
 **Weppalyzer** 
@@ -59,6 +50,17 @@
 **.json files** 
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5bde726a-f059-4143-9ec1-bfe412b04f31)
+
+
+
+## Important notes on access related actions to public or "semi public" buckets
+
+| Note | Detail (if available) |
+|-----:|---------------:|
+| To access the bucket you can try from web (browser) navigate and open in URL the target bucket instance | this can look like in the format of amazonaws domain like [bucket].s3.amazonaws OR s3.amazonaws/[bucket] OR subdomain.targetdomain.tld | 
+| to access via aws cli | you can use command aws s3 ls s3://bucket to list all contents including --no-sign-request at the end of the command, because otherwise some buckets due to config may present 'accessdenied' or 'nosuchbucket' - but with the '--no-sign-request' it may in a sense bypass that | 
+|   https://github.com/redhuntlabs/BucketLoot | Bucket inspector that can help users extract assets, flag secret exposures and even search for custom keywords as well as Regular Expressions from publicly-exposed storage buckets by scanning files that store data in plain-text.  |
+
 
 
 ## AWS CLI S3 Enumeration & Exploitation Commands
