@@ -1,6 +1,8 @@
 
 # Cloud AWS Recon & Hacking (s3 only) ;^) 
 
+**You can use this s3 hacking guide for your own bugbounty/work - i tested everything and organized how I like it and how it makes sense to me from workflow pov**
+
 ## Step 1 : Get familiar with terms / concepts
 
 | Term | Detail (if available) |
