@@ -3,15 +3,6 @@
 
 **You can use this s3 hacking guide for your own bugbounty/work - i tested everything and organized how I like it and how it makes sense to me from workflow pov**
 
-## Step 1 : Get familiar with terms / concepts
-
-| Term | Detail (if available) |
-|-----:|---------------:|
-|   Bucket | a top-level Amazon S3 folder  |
-|   Prefix | a folder in a bucket |
-|  Object  | any item inside a bucket |
-
-
 ## OSINT & Active Methods to Identify AWS s3 on Target
 
 | Method | Detail (if available) |
