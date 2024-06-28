@@ -57,7 +57,8 @@
 
 **using LeakIX premium plugins + query leaks find buckets + access keys** 
 
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/f20d3a19-9219-4cbf-917d-a681c46e7e6b)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/28696147-705f-422f-a194-c053e0057625)
+
 
 
 
