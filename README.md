@@ -30,10 +30,11 @@
 | https://buckets.grayhatwarfare.com/ | * | 
 | Google dorks | site:http://s3.amazonaws.com intitle:index.of.bucket, site:http://amazonaws.com inurl:".s3.amazonaws.com/", site:.s3.amazonaws.com "Company" intitle:index.of.bucket, site:http://s3.amazonaws.com intitle:Bucket loading , site:*.amazonaws.com inurl:index.html,  Bucket Date Modified | 
 
-## Once in public s3 bucket
+## Important notes on access to public or "semi public" buckets
 
-| Tool | Detail (if available) |
+| Note | Detail (if available) |
 |-----:|---------------:|
+| To access the bucket you can try from web (browser) | this can look like in the format of amazonaws domain like [bucket].s3.amazonaws OR s3.amazonaws/[bucket] OR subdomain.targetdomain.tld | 
 |   https://github.com/redhuntlabs/BucketLoot | Bucket inspector that can help users extract assets, flag secret exposures and even search for custom keywords as well as Regular Expressions from publicly-exposed storage buckets by scanning files that store data in plain-text.  |
 
 
