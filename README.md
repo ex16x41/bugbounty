@@ -35,7 +35,7 @@
 |   https://github.com/redhuntlabs/BucketLoot | Bucket inspector that can help users extract assets, flag secret exposures and even search for custom keywords as well as Regular Expressions from publicly-exposed storage buckets by scanning files that store data in plain-text.  |
 
 
-## Visual Examples of all methods above to identify s3 buckets 
+## Visual Examples of all methods above to identify s3 buckets (how it looks like in practice)
 
 **Weppalyzer** 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/19098495-5303-4bad-a3ef-89f6c2a84e7a)
@@ -47,6 +47,12 @@
 **inspect network traffic - see server GET requests** (can filter keyword as per usual url formats)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
+
+**s3 in robots.txt (or generally ext:txt)** 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/23700247-f462-4cac-b68c-b2e1f09ad355)
+
+**.json files** 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/5bde726a-f059-4143-9ec1-bfe412b04f31)
 
 
 ## AWS CLI S3 Enumeration & Exploitation Commands
