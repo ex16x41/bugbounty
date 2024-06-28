@@ -17,11 +17,45 @@ I have not seen anything as comprehensive as this, therefore I created this guid
 |  Object  | any item inside a bucket |
 
 
+## OSINT & Active Methods to Identify AWS s3 on Target
+
+| Method | Detail (if available) |
+|-----:|---------------:|
+|   Weppalyzer | Identify technologies on target web  |
+|    HTML inspection, CSS & JS files, comments | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"  you can also use linkfinder to find endpoints/hyperlinks or use linkgopher   |
+|   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
+|  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
+|   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
+|Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+| Content-Security-Policy Response headers | * | 
+| Burp Suite | spider > go trough resulst | 
+| dig -x | target domain or IP | 
+| https://osint.sh/buckets/ | a little better than grayhat because not limited to filtering by filetype (no reg req)  | 
+| https://buckets.grayhatwarfare.com/ | * | 
+| Google dorks | site:http://s3.amazonaws.com intitle:index.of.bucket, site:http://amazonaws.com inurl:".s3.amazonaws.com/", site:.s3.amazonaws.com "Company" intitle:index.of.bucket, site:http://s3.amazonaws.com intitle:Bucket loading , site:*.amazonaws.com inurl:index.html,  Bucket Date Modified | 
+
+
+
+
+
+
+
+**Visual examples:**
+
+**view source code (S3 Bucket URL hardcoded in HTML of webpage also... in IP addresses to, not only www.domain.com format)**
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
+
+**inspect network traffic - see server GET requests** (can filter keyword as per usual url formats)
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
+
+
 ## AWS CLI S3 Enumeration & Exploitation Commands
 
 | Command | Detail (if available) |
 |-----:|---------------:|
-|   Bucket | a top-level Amazon S3 folder  |
+|   Bucket | List and read contents of bucket  |
 |   Prefix | a folder in a bucket |
 |  Object  | any item inside a bucket |
 
@@ -167,29 +201,6 @@ The server access logs in Amazon S3 typically include the following information:
 
 
 
-## Step 1 -  dig for buckets manually
-
-| Method | Detail if available|
-|-----:|---------------:|
-|    HTML inspection, CSS & JS files, comments | e.g., " img src="https://s3.amazonaws.com/my-bucket/my-image.jpg" alt="My Image">"  you can also use linkfinder to find endpoints/hyperlinks or use linkgopher   |
-|   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
-|  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
-|   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
-|Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
-| Content-Security-Policy Response headers | * | 
-| Burp Suite | spider > go trough resulst | 
-
-
-**Visual examples:**
-
-**view source code (S3 Bucket URL hardcoded in HTML of webpage also... in IP addresses to, not only www.domain.com format)**
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
-
-**inspect network traffic - see server GET requests** (can filter keyword as per usual url formats)
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
-
 
 
 ## Misconfiguration Types to look for
@@ -324,41 +335,9 @@ some buckets will allow ls using --no-sign-request but will not allow download o
 
 
 
-# Let's talk about non direct recon 
-
-**here we have two options, one is google dorks, another is 3rd party site tools** 
 
 
 
-
-# Discover vuln/exposed/misconfig'd s3 buckets
-
-## Sources for external search (osint only)
-
-1. https://osint.sh/buckets/ - a little better than grayhat because not limited to filtering by filetype (no reg req) 
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/ef73ae2b-67e6-4e02-b418-0873517125a1)
-
-2. https://buckets.grayhatwarfare.com/
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/f9c53007-c327-4d08-b0cc-3aa520ed650b)
-
-
-# dorks 
-
-site:http://s3.amazonaws.com intitle:index.of.bucket
-
-site:http://amazonaws.com inurl:".s3.amazonaws.com/"
-
-site:.s3.amazonaws.com "Company"
-
-intitle:index.of.bucket
-
-site:http://s3.amazonaws.com intitle:Bucket loading
-
-site:*.amazonaws.com inurl:index.html
-
-Bucket Date Modified
 
 
 
