@@ -49,9 +49,11 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/dc6aec45-de04-4d4c-9409-5293fd4458dd)
 
 **s3 in robots.txt (or generally ext:txt)** 
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/23700247-f462-4cac-b68c-b2e1f09ad355)
 
 **.json files** 
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5bde726a-f059-4143-9ec1-bfe412b04f31)
 
 
