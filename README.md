@@ -6,23 +6,44 @@
 
 I have not seen anything as comprehensive as this, therefore I created this guide, on everything from a to z about s3 hacking and understanding how it works, the commands we try and why some work some don't. everything here tested by me, configured, and 'hacked', so you can see how misconfigs look like form the inside, their cause, etc. learn, practice, enjoy.
 
-
-## Understanding terms 
-
-
-    Bucket – basically, a top-level Amazon S3 folder.
-
-    Prefix – basically, a folder in a bucket.
-
-    Object – basically, any item inside a bucket.
     
- ## Configuring S3 bucket securely consists of 3 major categories. 
+ ## Configuring an S3 bucket securely consists of 3 major categories. 
 
     IAM roles creation and Assignment 
 
     Public and Private availability with Read / Write access in Bucket policies 
 
     Access Control lists 
+
+
+
+## Step 1 : Get familiar with terms / concepts
+
+| Method | Detail if available|
+|-----:|---------------:|
+|   Bucket | a top-level Amazon S3 folder  |
+|   Prefix | a folder in a bucket |
+|  Object  | any item inside a bucket |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Permissions Abuse Testing 
