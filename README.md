@@ -29,7 +29,7 @@ I have not seen anything as comprehensive as this, therefore I created this guid
 |Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
 | Content-Security-Policy Response headers | * | 
 | Burp Suite | spider > go trough resulst | 
-| dig -x | target domain or IP | 
+| dig -x | target domain or IP will result in s3-site-us-east-1.amazonaws.com | 
 | https://osint.sh/buckets/ | a little better than grayhat because not limited to filtering by filetype (no reg req)  | 
 | https://buckets.grayhatwarfare.com/ | * | 
 | Google dorks | site:http://s3.amazonaws.com intitle:index.of.bucket, site:http://amazonaws.com inurl:".s3.amazonaws.com/", site:.s3.amazonaws.com "Company" intitle:index.of.bucket, site:http://s3.amazonaws.com intitle:Bucket loading , site:*.amazonaws.com inurl:index.html,  Bucket Date Modified | 
