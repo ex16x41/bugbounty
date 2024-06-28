@@ -59,6 +59,9 @@
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/28696147-705f-422f-a194-c053e0057625)
 
+**shoan or censys , fofa, zoomeye with similar query, changed region** 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6f86fc9a-af4a-49a4-b319-49f86324eebf)
 
 
 
