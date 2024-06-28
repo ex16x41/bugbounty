@@ -52,6 +52,7 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5bde726a-f059-4143-9ec1-bfe412b04f31)
 
 **Google dorking** 
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/b895255e-7013-4a32-89a2-12f6b87831c6)
 
 
