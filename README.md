@@ -1,12 +1,5 @@
 
-# Cloud AWS Recon & Hacking (s3) ;^)  -if you find bugs using this rep, credit <3 (this is only s3 focused, this doc will also include other aws products hacking, azure, gcp)
-
-
-# Understanding S3 from the inside (for bugbounty)
-
-I have not seen anything as comprehensive as this, therefore I created this guide, on everything from a to z about s3 hacking and understanding how it works, the commands we try and why some work some don't. everything here tested by me, configured, and 'hacked', so you can see how misconfigs look like form the inside, their cause, etc. learn, practice, enjoy.
-
-    
+# Cloud AWS Recon & Hacking (s3 only) ;^) 
 
 ## Step 1 : Get familiar with terms / concepts
 
@@ -26,7 +19,7 @@ I have not seen anything as comprehensive as this, therefore I created this guid
 |   Network requests  | When a webpage loads, it may make network requests to an S3 bucket to fetch resources such as images, videos, or other files. You can use your browser's developer tools to monitor network requests and look for requests to S3 bucket URLs.  |
 |  Cookies  | Some websites may use cookies to store S3 bucket URLs or other sensitive information. You can inspect the cookies of a website using your browser's developer tools or a browser extension such as EditThisCookie.   |
 |   Configuration files | If the website is built using a framework or content management system (CMS), it may store S3 bucket URLs or other configuration settings in configuration files such as config.php or settings.ini  |
-|Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
+|enum via Tools on GitHub |Lazy S3, bucket_finder, AWS Cred Scanner, sandcastle, Mass3, Dumpster Diver, S3 Bucket Finder, S3Scanner|
 | Content-Security-Policy Response headers | * | 
 | Burp Suite | spider > go trough resulst | 
 | dig -x | target domain or IP will result in s3-site-us-east-1.amazonaws.com | 
@@ -35,14 +28,12 @@ I have not seen anything as comprehensive as this, therefore I created this guid
 | Google dorks | site:http://s3.amazonaws.com intitle:index.of.bucket, site:http://amazonaws.com inurl:".s3.amazonaws.com/", site:.s3.amazonaws.com "Company" intitle:index.of.bucket, site:http://s3.amazonaws.com intitle:Bucket loading , site:*.amazonaws.com inurl:index.html,  Bucket Date Modified | 
 
 
+## Visual Examples of all methods above to identify s3 buckets 
 
+**Weppalyzer** 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/19098495-5303-4bad-a3ef-89f6c2a84e7a)
 
-
-
-
-**Visual examples:**
-
-**view source code (S3 Bucket URL hardcoded in HTML of webpage also... in IP addresses to, not only www.domain.com format)**
+**view source code (S3 Bucket URL hardcoded in HTML of webpage also... in IP addresses too, not only www.domain.com format)**
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6201e729-f33a-49d3-9ca9-2c0faf00f009)
 
