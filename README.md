@@ -110,11 +110,6 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/40768724-0de8-4bcf-9713-cb1c59e9b5da)
 
 
-test reading acl 
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/e2dad919-eb6f-413a-ae7a-406501fbb899)
-
-
 with --no-sign-request does not work because of configuration 
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/cf5a21f5-e028-4448-ab68-3a07004d0423)
