@@ -63,9 +63,9 @@
 
     Upload or Modify Objects: If the bucket has public write access or allows unauthorized uploads, we may use commands like aws s3 cp or aws s3 sync to upload malicious files, overwrite existing files, or modify the content within the bucket.
 
-    Bucket and Object Deletion: In cases where the bucket has misconfigured or weak access control, hackers might attempt to delete or remove objects from the bucket using commands like aws s3 rm.
+    Bucket and Object Deletion: In cases where the bucket has misconfigured or weak access control, we might attempt to delete or remove objects from the bucket using commands like aws s3 rm.
 
-    ACL and Policy Modification: If the bucket's access control settings are misconfigured, hackers may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
+    ACL and Policy Modification: If the bucket's access control settings are misconfigured, we may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
 
 
 ## AWS CLI S3 Enumeration & Exploitation Commands
