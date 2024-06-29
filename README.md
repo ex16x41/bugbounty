@@ -106,26 +106,6 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
 
 
-
-
-## AWS CLI S3 Enumeration & Exploitation Commands
-
-| Command | Detail (if available) |
-|-----:|---------------:|
-|   Bucket | List and read contents of bucket  |
-|   Prefix | a folder in a bucket |
-|  Object  | any item inside a bucket |
-
-## Important notes on access related actions to public buckets
-
-| Note | Detail (if available) |
-|-----:|---------------:|
-| To access the bucket you can try from web (browser) navigate and open in URL the target bucket instance | this can look like in the format of amazonaws domain like [bucket].s3.amazonaws OR s3.amazonaws/[bucket] OR subdomain.targetdomain.tld | 
-| to access via aws cli | you can use command aws s3 ls s3://bucket to list all contents including --no-sign-request at the end of the command, because otherwise some buckets due to config may present 'accessdenied' or 'nosuchbucket' - but with the '--no-sign-request' it may in a sense bypass that | 
-|   https://github.com/redhuntlabs/BucketLoot | Bucket inspector that can help users extract assets, flag secret exposures and even search for custom keywords as well as Regular Expressions from publicly-exposed storage buckets by scanning files that store data in plain-text.  |
-
-
-
 ## AWS CLI IAM Enumeration & Exploitation Commands
 
 | Command | Detail (if available) |
@@ -142,16 +122,6 @@
 |   Bucket | a top-level Amazon S3 folder  |
 |   Prefix | a folder in a bucket |
 |  Object  | any item inside a bucket |
-
-
-
-
-
-
-
-
-
-
 
 
 
