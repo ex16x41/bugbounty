@@ -68,6 +68,60 @@
     ACL and Policy Modification: If the bucket's access control settings are misconfigured, we may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
 
 
+# First let's understand how s3 buckets look like in real life? we have multiple scenarios
+
+**example URL one (here the url format is targetbucket.amazon)** here to read bucket we would do s3://divvy-tripdata
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
+
+
+
+**example URL two (here the url format is amazon.targetbucket)** here to read bucket we would do s3://capitalbikeshare-data
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
+
+
+
+
+**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)** here to read bucket we would do s3://dpa-prd
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
+
+
+
+**example URL four (here the name of the subdomain and bucket name match)** here to read bucket we would do s3://flaws-cloud
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/d15189e3-646b-4b7a-914a-c2c5f189892a)
+
+
+
+
+
+## Misconfiguration Types to look for
+
+| Method | Detail if available|
+|-----:|---------------:|
+| Public access (completely external) | One of the most common issues is when S3 buckets are set to public access, meaning that anyone on the internet can access the contents of the bucket. This can happen if the bucket is created with default settings or if the access control list (ACL) is misconfigured. !!!!! note public access config has various levels to it depending on permissions (read,write,delete)  |
+| Overly permissive IAM policies (req some lvl of access) | AWS Identity and Access Management (IAM) allows you to control access to your AWS resources. If IAM policies are too permissive, users may have more access than they need, potentially allowing them to access S3 buckets that they shouldn't be able to.  |
+|  Misconfigured bucket policies (external testing) | S3 bucket policies define the permissions for a bucket, including who can access it and what they can do with its contents. If these policies are misconfigured or too permissive, attackers may be able to gain unauthorized access to sensitive data. ALSO --- !!!! An attacker can try to access the bucket through AWS Management Console, AWS CLI, or other tools. If the bucket is misconfigured, the attacker can access its contents directly. If not accessible, the attacker can exploit misconfigured bucket policies using tools like Pacu to find and exploit IAM policy vulnerabilities. Once access is gained, the attacker can read, modify, or delete the bucket's contents, resulting in the theft of sensitive data, insertion of malware or backdoors, or other malicious activity.  |
+|   Lack of encryption | If data stored in S3 buckets is not encrypted, it may be vulnerable to interception or theft. S3 supports several types of encryption, including server-side encryption and client-side encryption. |
+|Insecure pre-signed URLs | S3 allows users to generate pre-signed URLs that grant temporary access to specific objects or resources. If these URLs are leaked or improperly secured, attackers may be able to use them to access sensitive data.|  
+|Cross-origin resource sharing (CORS) misconfiguration | If CORS settings are misconfigured, attackers may be able to bypass same-origin policy protections and access data stored in S3 buckets.|  
+
+# Interesting file types to look for in s3 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
+
+PS1, XML, TXT, CSV
+
+
+AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
+
+Misconfigured AWS S3 buckets that leave unauthorized access are thus abused by attackers to compromise the privacy of the data stored in those buckets breaching the privacy of millions of users around the world. If the case misconfigured S3 Bucket contains EC2 snapshot instances, then attackers might be able to retrieve the snapshot instance and then get security keys for the EC2 instance itself. 
+
+
+
+
 ## AWS CLI S3 Enumeration & Exploitation Commands
 
 | Command | Detail (if available) |
@@ -176,59 +230,6 @@ this is why when attempting a read of acp (policy) we dont get access
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/18ff1b85-ea72-4f21-9936-07161360cd26)
 
-
-
-
-# First let's understand how s3 buckets look like in real life? we have multiple scenarios
-
-**example URL one (here the url format is targetbucket.amazon)** here to read bucket we would do s3://divvy-tripdata
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/fc44f23e-0afb-4dfa-ad9a-2da9f3ac3ac9)
-
-
-
-**example URL two (here the url format is amazon.targetbucket)** here to read bucket we would do s3://capitalbikeshare-data
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/0b4bdcdf-4cdf-4c1b-8c6a-e67005464dae)
-
-
-
-
-**example URL three (here the domain is not revealing the bucket directly, but instead under name tags that differ)** here to read bucket we would do s3://dpa-prd
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/572c8421-cd1b-415b-a580-ea3cfc926aad)
-
-
-
-**example URL four (here the name of the subdomain and bucket name match)** here to read bucket we would do s3://flaws-cloud
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/d15189e3-646b-4b7a-914a-c2c5f189892a)
-
-
-
-
-
-## Misconfiguration Types to look for
-
-| Method | Detail if available|
-|-----:|---------------:|
-| Public access (completely external) | One of the most common issues is when S3 buckets are set to public access, meaning that anyone on the internet can access the contents of the bucket. This can happen if the bucket is created with default settings or if the access control list (ACL) is misconfigured. !!!!! note public access config has various levels to it depending on permissions (read,write,delete)  |
-| Overly permissive IAM policies (req some lvl of access) | AWS Identity and Access Management (IAM) allows you to control access to your AWS resources. If IAM policies are too permissive, users may have more access than they need, potentially allowing them to access S3 buckets that they shouldn't be able to.  |
-|  Misconfigured bucket policies (external testing) | S3 bucket policies define the permissions for a bucket, including who can access it and what they can do with its contents. If these policies are misconfigured or too permissive, attackers may be able to gain unauthorized access to sensitive data. ALSO --- !!!! An attacker can try to access the bucket through AWS Management Console, AWS CLI, or other tools. If the bucket is misconfigured, the attacker can access its contents directly. If not accessible, the attacker can exploit misconfigured bucket policies using tools like Pacu to find and exploit IAM policy vulnerabilities. Once access is gained, the attacker can read, modify, or delete the bucket's contents, resulting in the theft of sensitive data, insertion of malware or backdoors, or other malicious activity.  |
-|   Lack of encryption | If data stored in S3 buckets is not encrypted, it may be vulnerable to interception or theft. S3 supports several types of encryption, including server-side encryption and client-side encryption. |
-|Insecure pre-signed URLs | S3 allows users to generate pre-signed URLs that grant temporary access to specific objects or resources. If these URLs are leaked or improperly secured, attackers may be able to use them to access sensitive data.|  
-|Cross-origin resource sharing (CORS) misconfiguration | If CORS settings are misconfigured, attackers may be able to bypass same-origin policy protections and access data stored in S3 buckets.|  
-
-# Interesting file types to look for in s3 
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
-
-PS1, XML, TXT, CSV
-
-
-AWS S3 comes equipped with a range of permissions and access control mechanisms which if in the case overlooked by administrators and improperly implemented can act as a treasure of data
-
-Misconfigured AWS S3 buckets that leave unauthorized access are thus abused by attackers to compromise the privacy of the data stored in those buckets breaching the privacy of millions of users around the world. If the case misconfigured S3 Bucket contains EC2 snapshot instances, then attackers might be able to retrieve the snapshot instance and then get security keys for the EC2 instance itself. 
 
 
 # public access abuse case 1 
