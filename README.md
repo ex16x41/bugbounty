@@ -55,7 +55,7 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6f86fc9a-af4a-49a4-b319-49f86324eebf)
 
 
-## What actions can we do on s3 ?
+# What actions can we do on s3 ?
  
     Enumeration: use AWS CLI commands like aws s3 ls or aws s3api list-objects to enumerate the contents of your bucket and gather information about the exposed files and directories.
 
