@@ -57,18 +57,15 @@
 
 ## What actions can we do on s3 ?
  
-    Enumeration: Hackers may use AWS CLI commands like aws s3 ls or aws s3api list-objects to enumerate the contents of your bucket and gather information about the exposed files and directories.
+    Enumeration: use AWS CLI commands like aws s3 ls or aws s3api list-objects to enumerate the contents of your bucket and gather information about the exposed files and directories.
 
-    Access and Download: If your S3 bucket has public read access, hackers can use AWS CLI commands such as aws s3 cp or aws s3 sync to download the files from the bucket to their local system.
+    Access and Download: If  S3 bucket has public read access, we can use AWS CLI commands such as aws s3 cp or aws s3 sync to download the files from the bucket to their local system.
 
-    Upload or Modify Objects: If the bucket has public write access or allows unauthorized uploads, hackers may use commands like aws s3 cp or aws s3 sync to upload malicious files, overwrite existing files, or modify the content within the bucket.
+    Upload or Modify Objects: If the bucket has public write access or allows unauthorized uploads, we may use commands like aws s3 cp or aws s3 sync to upload malicious files, overwrite existing files, or modify the content within the bucket.
 
     Bucket and Object Deletion: In cases where the bucket has misconfigured or weak access control, hackers might attempt to delete or remove objects from the bucket using commands like aws s3 rm.
 
     ACL and Policy Modification: If the bucket's access control settings are misconfigured, hackers may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
-
-
-
 
 
 ## AWS CLI S3 Enumeration & Exploitation Commands
