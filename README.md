@@ -104,12 +104,7 @@
 
 
 
-
-## Permissions Abuse Testing 
-
-Fun fact: most permission misconfigurations happen because bucket owner configure the buckets using manual config. 
-"if you need to grant write access for this grantee (anyone with aws acc or public), you can use the AWS CLI, AWS SDK, or the Amazon S3 REST API. " 
-## CASE1: configured read access to aws accounts
+## Now let's see how cofnigurations look like form the inside of the aws console
 * If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli)
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/40768724-0de8-4bcf-9713-cb1c59e9b5da)
@@ -168,7 +163,7 @@ The server access logs in Amazon S3 typically include the following information:
 
     ACL and Policy Modification: If the bucket's access control settings are misconfigured, hackers may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
     
-## Inside view of poorly configured bucket, some things to keep in mind     
+## Inside view of poorly configured bucket,     
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/386f6eec-62b5-49dc-a46c-094eff6ed1b6)
 
