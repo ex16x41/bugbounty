@@ -104,6 +104,7 @@
 |CSV|
 
 **visual example of files (filetypes) in bucket**
+
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
 
 
@@ -126,7 +127,7 @@
 
 
 
-## Now let's see how cofnigurations look like form the inside of the aws console
+## Now let's see how configurations look like form the inside of the aws console (and what leads to abuse of them)
 
 
 |Notes|
@@ -139,39 +140,41 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/40768724-0de8-4bcf-9713-cb1c59e9b5da)
 
 
-with --no-sign-request does not work because of configuration 
+|Notes|
+|-----:|
+| with --no-sign-request does not work because of configuration  |
+
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/cf5a21f5-e028-4448-ab68-3a07004d0423)
 
+|Notes|
+|-----:|
+| this one is used to enumerate the contents of your bucket and gather information about the exposed files and directories. | 
 
-this one is used to enumerate the contents of your bucket and gather information about the exposed files and directories.
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/85f2fff8-9184-4fce-bac3-62186716cd91)
 
 
-## CASE2: configured read access to everyone (public)
-* If internally the bucket permissions enabled only to everyone (all public) users then can use --no-sign-request and with creds also
+|Notes|
+|-----:|
+| If internally the bucket permissions enabled only to everyone (all public) users then can use --no-sign-request and with creds also | 
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/14da7b3a-c6fd-42bf-949d-27b895ed029e)
 
 
-The actions and commands that are successfully executed epend entirely on the configuration of permissions, for example this setting is configured to everyone allowed to list but not read ACP
+|Notes|
+|-----:|
+| The actions and commands that are successfully executed epend entirely on the configuration of permissions, for example this setting is configured to everyone allowed to list but not read ACP, this is why when attempting a read of acp (policy) we dont get access  | 
 
 
-
-
-
-this is why when attempting a read of acp (policy) we dont get access 
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f075d0f-e117-4ecb-adb5-1ee922c39324)
 
 
 
-
-
     
     
-## Inside view of poorly configured bucket,     
+## More inside view of poor configurations or possible configurations   
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/386f6eec-62b5-49dc-a46c-094eff6ed1b6)
 
