@@ -103,6 +103,7 @@
 |TXT|
 |CSV|
 
+**visual example of files (filetypes) in bucket**
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
 
 
@@ -110,20 +111,18 @@
 
 | Command | Detail (if available) |
 |-----:|---------------:|
-|   Bucket | a top-level Amazon S3 folder  |
-|   Prefix | a folder in a bucket |
-|  Object  | any item inside a bucket |
+|* | * |
+| * | * |
+|*  | * |
 
 
 ## AWS CLI ID Exploitation Commands (Get Keys)
 
 | Command | Detail (if available) |
 |-----:|---------------:|
-|   Bucket | a top-level Amazon S3 folder  |
-|   Prefix | a folder in a bucket |
-|  Object  | any item inside a bucket |
-
-
+|* | * |
+| * | * |
+|*  | * |
 
 
 
