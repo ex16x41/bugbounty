@@ -105,7 +105,12 @@
 
 
 ## Now let's see how cofnigurations look like form the inside of the aws console
-* If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli)
+
+
+|Notes|
+|-----:|
+|  If internally the bucket permissions enabled only to AWS users then cannot use --no-sign-request (will not work, must use creds config'd in cli) |
+
 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/291331c2-762d-42aa-ac24-70e4e9664ccf)
 
