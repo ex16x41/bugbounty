@@ -190,14 +190,14 @@
 
 
 
-# public access abuse case 1 
+# from nosuchkey to full listing of bucket
 
 **access from web gives "nosuchkey", but with --no-sign-request it works** 
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/afd0df70-39d5-4322-a1a5-74028401f187)
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/9d87809b-e761-4f9e-875f-af42a87f1c94)
 
 
-# "priv esc" case study 
+# find access keys in file in bucket, authenticate, escalate
 
 **find file with admin creds, login, access further folders/files that were otherwise restricted** 
 found admin keys
