@@ -108,6 +108,79 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/fbe3e7f4-89b1-4d09-bea0-48483c48e532)
 
 
+# Gathered some real life case scenarios of aws s3 attacks
+
+# from nosuchkey to full listing of bucket
+
+**access from web gives "nosuchkey", but with --no-sign-request it works** 
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/afd0df70-39d5-4322-a1a5-74028401f187)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/9d87809b-e761-4f9e-875f-af42a87f1c94)
+
+
+# find access keys in file in bucket, authenticate, escalate
+
+**find file with admin creds, login, access further folders/files that were otherwise restricted** 
+found admin keys
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/c5f53c34-b5bb-4e0f-a917-ad12de0e7b65)
+
+
+aws configure (auth with admin keys)
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f44146b-a4c6-4673-96c4-2fd556497804)
+
+
+ls admin folder + contents (that wasnt accessible as --no-sign-request) 
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6511db37-76d0-42c3-957f-153f48dcd0dd)
+
+
+
+# 404 no such bucket to subdomain takeover
+
+developer delete s3 bucket but not delete cname pointing to that s3 bucket
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/6f3fb260-489f-4fd1-b587-98b7036684be)
+
+use this https://github.com/EdOverflow/can-i-take-over-xyz?source=post_page-----81a68823af74-------------------------------- 
+
+    Go to S3 panel
+    Click Create Bucket
+    Set Bucket name to source domain name (i.e., the domain you want to take over from error)
+    Click Next multiple times to finish
+    Open the created bucket
+    Click Upload
+    Select the file which will be used for PoC (HTML or TXT file). I recommend naming it differently than index.html; you can use poc (without extension)
+    In Permissions tab select Grant public read access to this object(s)
+    After upload, select the file and click More -> Change metadata
+    Click Add metadata, select Content-Type and value should reflect the type of document. If HTML, choose text/html, etc.
+    (Optional) If the bucket was configured as a website
+    Switch to Properties tab
+    Click Static website hosting
+    Select Use this bucket to host a website
+    As an index, choose the file that you uploaded
+    Click Save
+
+
+# exploit EBS snapshots by AWS acc ID 
+
+https://github.com/WeAreCloudar/s3-account-search/
+
+issue the command python3 -m pip install s3-account-search to install the tool s3-account-search. Next we need to provide the Amazon Resource Name (ARN) of the role under our control (i.e. in our own AWS account), as well as a target S3 bucket in the AWS account whose ID we want to enumerate.
+
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/ff25e10b-135e-4952-9a9e-a8990c683c9e)
+
+writeable (upload malicious poc file)
+![image](https://github.com/ex16x41/bugbounty/assets/44981946/3e485e0b-9330-4ab4-b42a-c8e8e91e6755)
+
+
+TO ADD: 
+IAM abuse cases 
+add from 
+https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iam-and-sts-unauthenticated-enum 
++ 
+https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools
+
 ## AWS CLI IAM Enumeration & Exploitation Commands
 
 | Command | Detail (if available) |
@@ -190,76 +263,7 @@
 
 
 
-# from nosuchkey to full listing of bucket
 
-**access from web gives "nosuchkey", but with --no-sign-request it works** 
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/afd0df70-39d5-4322-a1a5-74028401f187)
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/9d87809b-e761-4f9e-875f-af42a87f1c94)
-
-
-# find access keys in file in bucket, authenticate, escalate
-
-**find file with admin creds, login, access further folders/files that were otherwise restricted** 
-found admin keys
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/c5f53c34-b5bb-4e0f-a917-ad12de0e7b65)
-
-
-aws configure (auth with admin keys)
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f44146b-a4c6-4673-96c4-2fd556497804)
-
-
-ls admin folder + contents (that wasnt accessible as --no-sign-request) 
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/6511db37-76d0-42c3-957f-153f48dcd0dd)
-
-
-
-# 404 no such bucket to subdomain takeover
-
-developer delete s3 bucket but not delete cname pointing to that s3 bucket
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/6f3fb260-489f-4fd1-b587-98b7036684be)
-
-use this https://github.com/EdOverflow/can-i-take-over-xyz?source=post_page-----81a68823af74-------------------------------- 
-
-    Go to S3 panel
-    Click Create Bucket
-    Set Bucket name to source domain name (i.e., the domain you want to take over from error)
-    Click Next multiple times to finish
-    Open the created bucket
-    Click Upload
-    Select the file which will be used for PoC (HTML or TXT file). I recommend naming it differently than index.html; you can use poc (without extension)
-    In Permissions tab select Grant public read access to this object(s)
-    After upload, select the file and click More -> Change metadata
-    Click Add metadata, select Content-Type and value should reflect the type of document. If HTML, choose text/html, etc.
-    (Optional) If the bucket was configured as a website
-    Switch to Properties tab
-    Click Static website hosting
-    Select Use this bucket to host a website
-    As an index, choose the file that you uploaded
-    Click Save
-
-
-# exploit EBS snapshots by AWS acc ID 
-
-https://github.com/WeAreCloudar/s3-account-search/
-
-issue the command python3 -m pip install s3-account-search to install the tool s3-account-search. Next we need to provide the Amazon Resource Name (ARN) of the role under our control (i.e. in our own AWS account), as well as a target S3 bucket in the AWS account whose ID we want to enumerate.
-
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/ff25e10b-135e-4952-9a9e-a8990c683c9e)
-
-writeable (upload malicious poc file)
-![image](https://github.com/ex16x41/bugbounty/assets/44981946/3e485e0b-9330-4ab4-b42a-c8e8e91e6755)
-
-
-TO ADD: 
-IAM abuse cases 
-add from 
-https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-unauthenticated-enum-access/aws-iam-and-sts-unauthenticated-enum 
-+ 
-https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools
 
 # commands to run tests with
 
