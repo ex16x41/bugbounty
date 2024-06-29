@@ -96,6 +96,7 @@
 
 
 # Interesting file types to look for in s3
+|filetype|
 |-----:|
 |PS1 |
 |XML|
