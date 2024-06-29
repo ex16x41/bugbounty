@@ -55,6 +55,22 @@
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/6f86fc9a-af4a-49a4-b319-49f86324eebf)
 
 
+## What actions can we do on s3 ?
+ 
+    Enumeration: Hackers may use AWS CLI commands like aws s3 ls or aws s3api list-objects to enumerate the contents of your bucket and gather information about the exposed files and directories.
+
+    Access and Download: If your S3 bucket has public read access, hackers can use AWS CLI commands such as aws s3 cp or aws s3 sync to download the files from the bucket to their local system.
+
+    Upload or Modify Objects: If the bucket has public write access or allows unauthorized uploads, hackers may use commands like aws s3 cp or aws s3 sync to upload malicious files, overwrite existing files, or modify the content within the bucket.
+
+    Bucket and Object Deletion: In cases where the bucket has misconfigured or weak access control, hackers might attempt to delete or remove objects from the bucket using commands like aws s3 rm.
+
+    ACL and Policy Modification: If the bucket's access control settings are misconfigured, hackers may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
+
+
+
+
+
 ## AWS CLI S3 Enumeration & Exploitation Commands
 
 | Command | Detail (if available) |
@@ -144,26 +160,10 @@ this is why when attempting a read of acp (policy) we dont get access
 ![image](https://github.com/ex16x41/bugbounty/assets/44981946/5f075d0f-e117-4ecb-adb5-1ee922c39324)
 
 
-# Information stored in logs during upload/download/access 
 
-The server access logs in Amazon S3 typically include the following information:
 
-    Bucket and Object: The name of the bucket and the key (path) of the object accessed.
-    Requester: The Amazon S3 requester, which can be an AWS account or an anonymous user.
-    Request Time: The timestamp of the request.
-    Request Action: The type of action performed, such as GET, PUT, DELETE, etc.
-    Requester IP Address: The IP address of the requester making the request.
-    Response Status and Bytes Sent: The HTTP status code of the response and the number of bytes sent.
 
-    Enumeration: Hackers may use AWS CLI commands like aws s3 ls or aws s3api list-objects to enumerate the contents of your bucket and gather information about the exposed files and directories.
-
-    Access and Download: If your S3 bucket has public read access, hackers can use AWS CLI commands such as aws s3 cp or aws s3 sync to download the files from the bucket to their local system.
-
-    Upload or Modify Objects: If the bucket has public write access or allows unauthorized uploads, hackers may use commands like aws s3 cp or aws s3 sync to upload malicious files, overwrite existing files, or modify the content within the bucket.
-
-    Bucket and Object Deletion: In cases where the bucket has misconfigured or weak access control, hackers might attempt to delete or remove objects from the bucket using commands like aws s3 rm.
-
-    ACL and Policy Modification: If the bucket's access control settings are misconfigured, hackers may use AWS CLI commands like aws s3api put-bucket-acl or aws s3api put-bucket-policy to modify the access control lists (ACLs) or bucket policies, granting themselves or others unauthorized access.
+    
     
 ## Inside view of poorly configured bucket,     
 
