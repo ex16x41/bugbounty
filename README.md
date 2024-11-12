@@ -1,9 +1,9 @@
 
-# Cloud AWS hacking
+# Cloud AWS hacking (Public Repository)
 
-**You can use this s3 hacking guide for your own bugbounty/work - i tested everything and organized how I like it and how it makes sense to me from workflow pov**
+**You can use this s3 hacking guide for your own work - I tested everything and organized how I like it and how it makes sense to me from workflow pov**
 
-## OSINT & Active Methods to Identify AWS s3 of a Target IP/COMANY/DOMAIN
+## OSINT & Active Methods to Identify AWS s3 of a Target IP / COMANY / DOMAIN
 
 | Method | Detail (if available) |
 |-----:|---------------:|
@@ -102,6 +102,7 @@
 |XML|
 |TXT|
 |CSV|
+|XLSX|
 
 **visual example of files (filetypes) in bucket**
 
@@ -308,15 +309,17 @@ aws s3api get-object-acl --bucket [bucketname] --key index.html --no-sign-reques
 **notes:**
 some buckets will allow ls using --no-sign-request but will not allow download of files from it (forbidden) 
 
+CASE SCENARIOS
+
+CASE 1
+Found IP, this IP from nmap has open port 3000 with description node js express framework, you access via web on this port and see there is site come up, this site in source code shows bucket, you try to access bucket using "aws s3 cp s3://hugelogistics-data" but it doesnt work, you try with "--no-sign-request" it does not work, We might think to just download all the files from the bucket using aws s3 cp s3://hugelogistics-data . --recursive , but this also fails. we then can shift into looking at ACL of the bucket, so we run aws s3api get-bucket-acl --bucket hugelogistics-data, but that fails too. We then want to check if instead of ACL we can try policy, so we run aws s3api get-bucket-policy --bucket hugelogistics-data - and successfully so we get: 
+
+![image](https://github.com/user-attachments/assets/8ea95ed7-40d5-4c49-8f2a-52ee456249f9)
+
+This bucket policy can be summarized as follows:
+
+    Any authenticated AWS user globally can access the ACL and the content of the two specified files (backup.xlsx and background.png) in the hugelogistics-data bucket.
+    They can also retrieve the policy of the hugelogistics-data bucket.
 
 
-
-
-
-
-
-
-
-LABS to practice 
-
-https://pwnedlabs.io/dashboard 
+Even though we weren't able to list the contents of the bucket, we're still able to leak the contents and access them! Let's transfer the Excel file locally.
