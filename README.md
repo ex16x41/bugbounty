@@ -1,9 +1,9 @@
 
-# Cloud AWS Recon & Hacking (s3 only) ;^) 
+# Cloud AWS hacking
 
 **You can use this s3 hacking guide for your own bugbounty/work - i tested everything and organized how I like it and how it makes sense to me from workflow pov**
 
-## OSINT & Active Methods to Identify AWS s3 on Target
+## OSINT & Active Methods to Identify AWS s3 of a Target IP/COMANY/DOMAIN
 
 | Method | Detail (if available) |
 |-----:|---------------:|
