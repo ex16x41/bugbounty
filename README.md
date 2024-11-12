@@ -309,9 +309,9 @@ aws s3api get-object-acl --bucket [bucketname] --key index.html --no-sign-reques
 **notes:**
 some buckets will allow ls using --no-sign-request but will not allow download of files from it (forbidden) 
 
-CASE SCENARIOS
+##CASE SCENARIOS
 
-CASE 1
+#CASE 1
 Found IP, this IP from nmap has open port 3000 with description node js express framework, you access via web on this port and see there is site come up, this site in source code shows bucket, you try to access bucket using "aws s3 cp s3://hugelogistics-data" but it doesnt work, you try with "--no-sign-request" it does not work, We might think to just download all the files from the bucket using aws s3 cp s3://hugelogistics-data . --recursive , but this also fails. we then can shift into looking at ACL of the bucket, so we run aws s3api get-bucket-acl --bucket hugelogistics-data, but that fails too. We then want to check if instead of ACL we can try policy, so we run aws s3api get-bucket-policy --bucket hugelogistics-data - and successfully so we get: 
 
 ![image](https://github.com/user-attachments/assets/8ea95ed7-40d5-4c49-8f2a-52ee456249f9)
@@ -323,3 +323,5 @@ This bucket policy can be summarized as follows:
 
 
 Even though we weren't able to list the contents of the bucket, we're still able to leak the contents and access them! Let's transfer the Excel file locally.
+
+we can run this command to download the file exposed from policy to see if it will have more data for us to pivot from using, aws s3 cp s3://hugelogistics-data/backup.xlsx . - > then we 
