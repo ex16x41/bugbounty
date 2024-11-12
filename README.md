@@ -309,19 +309,20 @@ aws s3api get-object-acl --bucket [bucketname] --key index.html --no-sign-reques
 **notes:**
 some buckets will allow ls using --no-sign-request but will not allow download of files from it (forbidden) 
 
-##CASE SCENARIOS
+## CASE SCENARIOS
 
-#CASE 1
+# CASE 1
 Found IP, this IP from nmap has open port 3000 with description node js express framework, you access via web on this port and see there is site come up, this site in source code shows bucket, you try to access bucket using "aws s3 cp s3://hugelogistics-data" but it doesnt work, you try with "--no-sign-request" it does not work, We might think to just download all the files from the bucket using aws s3 cp s3://hugelogistics-data . --recursive , but this also fails. we then can shift into looking at ACL of the bucket, so we run aws s3api get-bucket-acl --bucket hugelogistics-data, but that fails too. We then want to check if instead of ACL we can try policy, so we run aws s3api get-bucket-policy --bucket hugelogistics-data - and successfully so we get: 
-
 ![image](https://github.com/user-attachments/assets/8ea95ed7-40d5-4c49-8f2a-52ee456249f9)
-
 This bucket policy can be summarized as follows:
-
     Any authenticated AWS user globally can access the ACL and the content of the two specified files (backup.xlsx and background.png) in the hugelogistics-data bucket.
     They can also retrieve the policy of the hugelogistics-data bucket.
-
-
 Even though we weren't able to list the contents of the bucket, we're still able to leak the contents and access them! Let's transfer the Excel file locally.
-
-we can run this command to download the file exposed from policy to see if it will have more data for us to pivot from using, aws s3 cp s3://hugelogistics-data/backup.xlsx . - > then we 
+we can run this command to download the file exposed from policy to see if it will have more data for us to pivot from using, aws s3 cp s3://hugelogistics-data/backup.xlsx . - > Attempting to open this in LibreOffice or Microsoft Office we're prompted to enter a password. Let's see if we can crack it. First download the Python script office2john.py .  wget https://raw.githubusercontent.com/openwall/john/bleeding-jumbo/run/office2john.py This script takes an Office file as input and creates a hash taking into account the version of the office document. generate a hash of the document that we can subject to an offline brute force attack using this command python3 office2john.py backup.xlsx > hash.txt - Remove the filename backup.xlsx: from the hash and save it. Running the command below we crack the password for the spreadsheet in under two minutes! hashcat -a 0 -m 9600 hash.txt rockyou.txt
+![image](https://github.com/user-attachments/assets/72a0ac3a-6b9a-4ffe-b311-f89e992e34fd)
+Opening the XSLX file we see table of creds 
+![image](https://github.com/user-attachments/assets/9b74b2e4-cae6-4195-9750-e506b10cd505)
+this one here mentions CRM.. what makes sense is to go back to site and bruteforce dis on the IP:port for any other logins that unique to CRM based access and use these creds 
+![image](https://github.com/user-attachments/assets/d210809f-09c6-4758-8f97-a571426dbff8)
+![image](https://github.com/user-attachments/assets/4cc1d208-5e4b-493a-9248-519653454d89)
+![image](https://github.com/user-attachments/assets/d32262e0-49c9-413b-aa4b-a0f09430bcf1)
