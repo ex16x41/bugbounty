@@ -5,3 +5,7 @@ and some API stuff
 
 it's going to be updated much more frequently post Nov 2024
 that's it. happy hacking!
+
+socials:
+https://x.com/evapro30
+https://www.linkedin.com/in/eprokofiev/
