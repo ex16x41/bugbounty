@@ -24,7 +24,7 @@
 
 | command (policies) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile <PROFILENAME> iam list-attached-user-policies --user-name <USERNAME>| ![image](https://github.com/user-attachments/assets/4ebe35b0-52f0-4727-9ffc-9ed3ad1b9826) | N/A | 
+|aws --profile <PROFILENAME> iam list-attached-user-policies --user-name <USERNAME>| ![image](https://github.com/user-attachments/assets/4ebe35b0-52f0-4727-9ffc-9ed3ad1b9826) | from here we obtain policyARN, that we can pivot with this to next command (as below) | 
 
 | command (policies versions) | IRL sample | comments | 
 |-----:|---------------:|---------------|
