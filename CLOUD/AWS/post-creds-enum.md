@@ -1,4 +1,4 @@
-# in black box lab env or red team setting after obtained and config'd creds 
+# in black box lab env or red team setting after obtained and config'd creds (e.g., regular user, non root, and want to escalate) 
 # that is my personal methodology (by default taken from https://cloud.hacktricks.xyz but with my modifications and examples/ explanation / order that fit me)
 
 ## The very first commands to fire up after obtain creds of user (check who you are and your permissions on the aws env > from permissions > policies > see exploit points, priv esc points)
