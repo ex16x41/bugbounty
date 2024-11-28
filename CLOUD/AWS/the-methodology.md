@@ -10,24 +10,25 @@ From a Red Team pov, first step to compromise an AWS env is to obtain some crede
 
 **To obtain aws creds you could look into:**
 
-/ OSINT stage: leaks via git-like sites (using collective dorks or one by one, also look into company profile on git-like sites, use scripts or scanners to mass scan for targeted creds + keyword of company name
+/** OSINT stage:** leaks via git-like sites (using collective dorks or one by one, also look into company profile on git-like sites, use scripts or scanners to mass scan for targeted creds + keyword of company name
 
-/ Password reuse (password leaks that can lead to creds of aws, e.g., hacked github with private rep with creds to aws OR anything like that) 
+**/ Password reuse** (3rd party breaches or password leaks that can lead to creds of aws, e.g., hacked github with private rep with creds to aws OR anything like that) 
 
-/ Web frameworks misconfigs that expose directly aws credentials like via this file I created https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md
+**/ Web frameworks misconfigs** that expose directly aws credentials like via this file I created https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md
 
-/ Vulnerabilities in AWS-Hosted Applications
-
-/ Server Side Request Forgery with access to metadata endpoint
-
-/ Local File Read
-
+**/ Vulnerabilities in AWS-Hosted Applications
+**
+**/ Server Side Request Forgery with access to metadata endpoint
+**
+/** Local File Read
+**
  /home/USERNAME/.aws/credentials
 
  C:\Users\USERNAME\.aws\credentials
 
-/ 3rd parties breached
+**/ 3rd parties breached
+**
+**/ Internal Employee **(social eng. enagegement sample of target firm)
 
-/ Internal Employee (social eng. enagegement sample of target firm)
-
-/ Cognito credentials
+**/ Cognito credentials
+**
