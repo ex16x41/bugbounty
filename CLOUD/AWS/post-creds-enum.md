@@ -1,7 +1,7 @@
 # in black box lab env or red team setting after obtained and config'd creds (e.g., regular user, non root, and want to escalate or pivot) 
 ## that is my personal methodology (by default taken from https://cloud.hacktricks.xyz but with my modifications and examples/ explanation / order that fit me)
 
-## think of exploiting cloud as a tree > one layer gives X output > take output X into further commands > extract output Y > put together and pivot to the next one. 
+## think of exploiting cloud as a tree > one commamnd gives X type of output > take output X into a new command > extract output Y > put X and Y together and pivot to the next one to extract further info or pivot to cases like priv esc, exposure, misconfigured policies, permisions, etc. 
 ## The very first commands to fire up after obtain creds of user (check who you are and your permissions on the aws env > from permissions > policies > see exploit points, priv esc points)
 
 | command (user data) | IRL sample | comments | 
