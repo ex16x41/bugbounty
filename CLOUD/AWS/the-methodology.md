@@ -14,7 +14,7 @@ From a Red Team pov, first step to compromise an AWS env is to obtain some crede
 
 **Password reuse** (3rd party breaches or password leaks that can lead to creds of aws, e.g., hacked github with private rep with creds to aws OR anything like that) 
 
-**Web frameworks misconfigs** that expose directly aws credentials like via this file I created https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md
+**Web frameworks misconfigs** that expose directly hardcoded aws credentials like via this file I created https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md
 
 **Vulnerabilities in AWS-Hosted Applications**
 
