@@ -28,5 +28,5 @@
 
 | command (policies versions) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile <PROFILENAME> iam list-policy-versions --policy-arn <POLICYARN>|![image](https://github.com/user-attachments/assets/49a00e02-5768-47dc-8faa-7125108f42a7) | ARN can be pasted into its placeholder in the command with our without quatation marks | 
+|aws --profile <PROFILENAME> iam list-policy-versions --policy-arn <POLICYARN>|![image](https://github.com/user-attachments/assets/49a00e02-5768-47dc-8faa-7125108f42a7) | ARN can be pasted into its placeholder in the command with our without quatation marks, same output | 
 
