@@ -26,7 +26,8 @@ From a Red Team pov, first step to compromise an AWS env is to obtain some crede
 
             C:\Users\USERNAME\.aws\credentials
 
-3rd parties breached
-Internal Employee (social eng. enagegement sample 2)
-Social Engineering (if relevant for engagement)
-Cognito credentials
+/ 3rd parties breached
+
+/ Internal Employee (social eng. enagegement sample of target firm)
+
+/ Cognito credentials
