@@ -30,7 +30,3 @@
 |-----:|---------------:|---------------|
 |aws --profile <PROFILENAME> iam list-policy-versions --policy-arn <POLICYARN>|![image](https://github.com/user-attachments/assets/49a00e02-5768-47dc-8faa-7125108f42a7) | ARN can be pasted into its placeholder in the command with our without quatation marks | 
 
-
-attach user policy IRL username 1 policy of another user with priv access
-![image](https://github.com/user-attachments/assets/4c03ed46-4631-4d19-86e5-b242c82628f0)
-
