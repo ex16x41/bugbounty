@@ -10,7 +10,7 @@ From a Red Team pov, first step to compromise an AWS env is to obtain some crede
 
 **To obtain aws creds you could look into:**
 
-**OSINT stage:** leaks via git-like sites (using collective dorks or one by one, also look into company profile on git-like sites, use scripts or scanners to mass scan for targeted creds + keyword of company name
+**OSINT search for direct aws creds:** leaks via git-like sites (using collective dorks or one by one, also look into company profile on git-like sites, use scripts or scanners to mass scan for targeted creds + keyword of company name
 
 **Password reuse** (3rd party breaches or password leaks that can lead to creds of aws, e.g., hacked github with private rep with creds to aws OR anything like that) 
 
