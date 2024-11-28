@@ -28,11 +28,7 @@
 
 | command (policies versions) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile <PROFILENAME> iam list-policy-versions --policy-arn <POLICYARN>|![image](https://github.com/user-attachments/assets/49a00e02-5768-47dc-8faa-7125108f42a7)
- | ARN can be pasted into its placeholder in the command with our without quatation marks | 
-
-
-![image](https://github.com/user-attachments/assets/cc6d572b-32f2-4f6b-8e64-6835dcf4e73e)
+|aws --profile <PROFILENAME> iam list-policy-versions --policy-arn <POLICYARN>|![image](https://github.com/user-attachments/assets/49a00e02-5768-47dc-8faa-7125108f42a7) | ARN can be pasted into its placeholder in the command with our without quatation marks | 
 
 
 attach user policy IRL username 1 policy of another user with priv access
