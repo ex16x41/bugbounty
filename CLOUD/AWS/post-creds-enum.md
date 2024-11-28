@@ -35,5 +35,6 @@ list version of policy
 ![image](https://github.com/user-attachments/assets/cc6d572b-32f2-4f6b-8e64-6835dcf4e73e)
 
 
-
+attach user policy IRL username 1 policy of another user with priv access
+![image](https://github.com/user-attachments/assets/4c03ed46-4631-4d19-86e5-b242c82628f0)
 
