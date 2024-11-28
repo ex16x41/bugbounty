@@ -1,13 +1,15 @@
-e.g, 
-in black box lab env or red team setting after obtained and config'd creds 
+# in black box lab env or red team setting after obtained and config'd creds 
+# that is my personal methodology (by default taken from https://cloud.hacktricks.xyz but with my modifications that fit me)
 
-first best commands to fire up
+## The very first commands to fire up (check who you are and your permissions on the aws env)
 
-Whoami & Permissions
+| command | what it does | IRl sample | comments | 
+|-----:|---------------:|---------------:|---------------|
+|X| X           | X       | X |
 
-One of the first things you need to know is who you are (in the account you are in other info about the AWS env):
 
-Easiest way, but might be monitored?
+
+
 1. aws --profile [profilename from config cred file] sts get-caller-identity (if error output, check creds config file)
    
 ![image](https://github.com/user-attachments/assets/63860e9e-35a7-4409-b3f7-8446ae91f0e9)
