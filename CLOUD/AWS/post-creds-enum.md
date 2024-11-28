@@ -5,8 +5,8 @@
 
 | command | what it does | IRl sample | comments | 
 |-----:|---------------:|---------------:|---------------|
-|aws --profile XYZ sts get-caller-identity| X           | X       | X |   
-![image](https://github.com/user-attachments/assets/63860e9e-35a7-4409-b3f7-8446ae91f0e9)
+|aws --profile XYZ sts get-caller-identity| X           | X       | ![image](https://github.com/user-attachments/assets/63860e9e-35a7-4409-b3f7-8446ae91f0e9) |   
+
 
 
 ![image](https://github.com/user-attachments/assets/f8038ce5-c25b-4851-a260-7e4a93fe3c3c)
