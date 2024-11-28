@@ -13,9 +13,6 @@
 |aws --profile XYZ iam list users| ![image](https://github.com/user-attachments/assets/f8038ce5-c25b-4851-a260-7e4a93fe3c3c) | if permissions allow this action you should see list of users (path/username/userid/arn/createdate) |   
 
 
-![image](https://github.com/user-attachments/assets/e4f79ee9-8b1b-46b9-be0e-e642ce92556c)
-![image](https://github.com/user-attachments/assets/d1e66c86-f2fb-46c0-90a9-2f8ab309951f)
-
 here below we get the info of our own user (the one we have auth'd with using the creds) 
 
 ![image](https://github.com/user-attachments/assets/06b2aeac-8189-490e-b381-03ef234e0a9d)
