@@ -8,12 +8,13 @@ and how are internal AWS services and external services connected?
 
 From a Red Team pov, first step to compromise an AWS env is to obtain some credentials. 
 
-To obtain creds you could look into:
+To obtain aws creds you could look into:
 
-    OSINT stage: I personally cover all that [HERE](https://github.com/ex16x41/bugbounty/blob/main/CLOUD/AWS/AWS-S3-HACKING-ENUM.md)
-    Social Engineering
+    OSINT stage: leaks via git-like sites (using collective dorks or one by one, also look into company profile on git-like sites, use scripts or scanners to mass scan for targeted creds + keyword of company name
+    
+    Password reuse (password leaks that can lead to creds of aws, e.g., hacked github with private rep with creds to aws OR anything like that) 
 
-    Password reuse (password leaks)
+    Web frameworks misconfigs that expose directly aws credentials like via this file I created https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md
 
     Vulnerabilities in AWS-Hosted Applications
 
@@ -26,7 +27,8 @@ To obtain creds you could look into:
             C:\Users\USERNAME\.aws\credentials
 
     3rd parties breached
+    Internal Employee (social eng. enagegement sample 2)
+    Social Engineering (if relevant for engagement)
 
-    Internal Employee
 
     Cognito credentials
