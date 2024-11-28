@@ -8,7 +8,7 @@ Whoami & Permissions
 One of the first things you need to know is who you are (in the account you are in other info about the AWS env):
 
 Easiest way, but might be monitored?
-1. aws sts get-caller-identity
+1. aws sts get-caller-identity (if error output, check creds config file)
    
 ![image](https://github.com/user-attachments/assets/63860e9e-35a7-4409-b3f7-8446ae91f0e9)
 
