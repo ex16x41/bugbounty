@@ -3,9 +3,9 @@
 
 ## The very first commands to fire up after obtain creds of user (check who you are and your permissions on the aws env > from permissions > policies > see exploit points, priv esc points)
 
-| command | what it does | IRL sample | comments | 
-|-----:|---------------:|---------------:|---------------|
-|aws --profile XYZ sts get-caller-identity|         | ![image](https://github.com/user-attachments/assets/63860e9e-35a7-4409-b3f7-8446ae91f0e9)         | generic true to any command - you can specify the --profile at the start or finish of command|   
+| command | IRL sample | comments | 
+|-----:|---------------:|---------------|
+|aws --profile XYZ sts get-caller-identity| ![image](https://github.com/user-attachments/assets/63860e9e-35a7-4409-b3f7-8446ae91f0e9)         | generic true to any command - you can specify the --profile at the start or finish of command|   
 
 
 
