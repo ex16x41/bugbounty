@@ -51,7 +51,8 @@ Each cloud has its own peculiarities but in general there are a few common thing
 Multi-Cloud tools
 
 There are several tools that can be used to test different cloud environments. The installation steps and links are going to be indicated in this section.
-PurplePanda
+
+PurplePanda https://github.com/carlospolop/purplepanda 
 
 A tool to identify bad configurations and privesc path in clouds and across clouds/SaaS.
 
@@ -65,7 +66,7 @@ export PURPLEPANDA_NEO4J_URL="bolt://neo4j@localhost:7687"
 export PURPLEPANDA_PWD="neo4j_pwd_4_purplepanda"
 python3 main.py -h # Get help
 
-Prowler
+Prowler https://github.com/prowler-cloud/prowler 
 
 It supports AWS, GCP & Azure. Check how to configure each provider in https://docs.prowler.cloud/en/latest/#aws
 
@@ -82,7 +83,7 @@ prowler aws --profile custom-profile [-M csv json json-asff html]
 prowler <provider> --list-checks
 prowler <provider> --list-services
 
-CloudSploit
+CloudSploit https://github.com/aquasecurity/cloudsploit 
 
 AWS, Azure, Github, Google, Oracle, Alibaba
 
@@ -93,7 +94,7 @@ npm install
 ./index.js -h
 ## Docker instructions in github
 
-ScoutSuite
+ScoutSuite https://github.com/nccgroup/ScoutSuite 
 
 AWS, Azure, GCP, Alibaba Cloud, Oracle Cloud Infrastructure
 
