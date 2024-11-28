@@ -13,14 +13,15 @@
 |aws --profile <PROFILENAME> iam list users| ![image](https://github.com/user-attachments/assets/f8038ce5-c25b-4851-a260-7e4a93fe3c3c) | if permissions allow this action you should see list of users (path/username/userid/arn/createdate) |   
 
 
-
 | command | IRL sample | comments | 
 |-----:|---------------:|---------------|
 |aws --profile <PROFILENAME> iam get-user --user-name >USERNAME>| ![image](https://github.com/user-attachments/assets/06b2aeac-8189-490e-b381-03ef234e0a9d) | here below we get the info of our own user (the one we have auth'd with using the creds) | 
 
-here below output means no policies of user 
 
-![image](https://github.com/user-attachments/assets/a6f5397f-9ab4-4227-aef5-ce85886a8d7e)
+| command | IRL sample | comments | 
+|-----:|---------------:|---------------|
+|aws --profile <PROFILENAME> iam list-user-policies --user-name <USERNAME> |  ![image](https://github.com/user-attachments/assets/a6f5397f-9ab4-4227-aef5-ce85886a8d7e)| here we can sometimes see empty brackets, no policies to user, instead check attached (or other commands) | 
+
 
 here below we check attached policies 
 
