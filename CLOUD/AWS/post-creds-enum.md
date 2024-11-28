@@ -23,9 +23,10 @@
 |aws --profile <PROFILENAME> iam list-user-policies --user-name <USERNAME> |  ![image](https://github.com/user-attachments/assets/a6f5397f-9ab4-4227-aef5-ce85886a8d7e)| here we can sometimes see empty brackets, no policies to user, instead check attached (or other commands) | 
 
 
-here below we check attached policies 
+| command | IRL sample | comments | 
+|-----:|---------------:|---------------|
+|aws --profile <PROFILENAME> iam list-attached-user-policies --user-name <USERNAME>| ![image](https://github.com/user-attachments/assets/4ebe35b0-52f0-4727-9ffc-9ed3ad1b9826) | N/A | 
 
-![image](https://github.com/user-attachments/assets/4ebe35b0-52f0-4727-9ffc-9ed3ad1b9826)
 
 list version of policy 
 
