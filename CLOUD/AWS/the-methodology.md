@@ -7,6 +7,7 @@ who has access to what?
 and how are internal AWS services and external services connected?
 
 From a Red Team pov, first step to compromise an AWS env is to obtain some credentials. 
+
 **To obtain aws creds you could look into:**
 
 / OSINT stage: leaks via git-like sites (using collective dorks or one by one, also look into company profile on git-like sites, use scripts or scanners to mass scan for targeted creds + keyword of company name
