@@ -19,8 +19,14 @@ Easiest way, but might be monitored?
 here below we get the info of our own user (the one we have auth'd with using the creds) 
 
 ![image](https://github.com/user-attachments/assets/06b2aeac-8189-490e-b381-03ef234e0a9d)
-![image](https://github.com/user-attachments/assets/cf3f665b-a67f-4ad9-9a64-13383fc627f0)
 
+here below output means no policies of user 
+
+![image](https://github.com/user-attachments/assets/a6f5397f-9ab4-4227-aef5-ce85886a8d7e)
+
+here below we check attached policies 
+
+![image](https://github.com/user-attachments/assets/4ebe35b0-52f0-4727-9ffc-9ed3ad1b9826)
 
 
 
