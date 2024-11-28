@@ -68,3 +68,8 @@ Tunneling internal HTTP service
 # Example of resulting link: https://abcd-1-2-3-4.ngrok.io/
 # With basic auth
 ./ngrok http localhost:8080 --host-header=rewrite --auth="myuser:mysuperpassword"
+
+
+Tests done; 
+
+
