@@ -104,3 +104,18 @@ source venv/bin/activate
 pip install scoutsuite
 scout --help
 ## Using Docker: https://github.com/nccgroup/ScoutSuite/wiki/Docker-Image
+
+
+
+Cloud Brute https://github.com/0xsha/CloudBrute 
+
+A tool to find a company (target) infrastructure, files, and apps on the top cloud providers (Amazon, Google, Microsoft, DigitalOcean, Alibaba, Vultr, Linode).
+
+
+CloudFox https://github.com/BishopFox/cloudfox
+
+    CloudFox is a tool to find exploitable attack paths in cloud infrastructure (currently only AWS & Azure supported with GCP upcoming).
+
+    It is an enumeration tool which is intended to compliment manual pentesting.
+
+    It doesn't create or modify any data within the cloud environment.
