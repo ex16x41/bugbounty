@@ -16,7 +16,7 @@ From a Red Team pov, first step to compromise an AWS env is to obtain some crede
 
 **Web frameworks misconfigs** that expose directly hardcoded aws credentials like via this file I created https://github.com/ex16x41/bugbounty/blob/main/WEB/WEB-FRAMEWORKS/WebFrameworks-Exposures.md
 
-**Vulnerabilities in AWS-Hosted Applications**
+**Vulnerabilities or misconfigurations in AWS-Hosted Applications** for instance case study of s3 with xlsx file with creds --no-sign-request allows to view or download
 
 **Server Side Request Forgery with access to metadata endpoint**
 
