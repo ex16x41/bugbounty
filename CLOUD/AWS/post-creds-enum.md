@@ -10,7 +10,7 @@
 
 | command (user data) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> iam get-user --user-name >USERNAME>| ![image](https://github.com/user-attachments/assets/06b2aeac-8189-490e-b381-03ef234e0a9d) | here below we get the info of our own user (the one we have auth'd with using the creds) | 
+|aws --profile >PROFILENAME> iam get-user --user-name >USERNAME>| ![image](https://github.com/user-attachments/assets/f0eefcc8-d0bf-4bfe-a683-0c7f3f1e0b75)| here below we get the info of our own user (the one we have auth'd with using the creds) | 
 
 
 | command (list users) | IRL sample | comments | 
