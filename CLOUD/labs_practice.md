@@ -35,6 +35,10 @@ https://tryhackme.com/r/path/outline/attackinganddefendingaws - seems nice but l
 
 https://blog.pentesteracademy.com/pentester-academys-aws-cloud-security-labs-35b66a3c5904 - seems nice, I generally like their web labs, but for cloud (aws) does not seem comprehensive enough 
 
+## collection index of hacking labs (really thorough) 
+
+https://github.com/iknowjason/Awesome-CloudSec-Labs - a must to check!
+
 ## others 
 
 https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/  - did not test 
