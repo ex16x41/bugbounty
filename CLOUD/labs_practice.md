@@ -25,7 +25,7 @@ https://training.hacktricks.xyz/ - best of them all in the market imho - like th
 
 ## hack the box 
 
-https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky - have not tested yet 
+https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky - have not tested yet, but heard price isn't worth it from those who tried
 
 ## others 
 
