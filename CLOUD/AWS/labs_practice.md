@@ -14,14 +14,11 @@ https://github.com/ine-labs/AWSGoat
 
 ## flaws 
 
-http://flaws.cloud/
-
-http://flaws2.cloud/ 
-
+http://flaws.cloud/  -aws (tested, nice)
 
 ## pwndlabs 
 
-https://pwnedlabs.io/ - (tested only free, will test paid in future when possible) semi free, semi paid, red team + blue team practice, really nice + walktrough available
+https://pwnedlabs.io/ - (tested only free, will test paid in future when possible) semi free, semi paid, red team + blue team practice, really nice + walktrough available which is nice if you're stuck in some areas 
 
 ## hacktricks
 
