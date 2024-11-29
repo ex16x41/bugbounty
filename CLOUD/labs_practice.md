@@ -27,6 +27,10 @@ https://training.hacktricks.xyz/ - best of them all in the market imho - like th
 
 https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky - have not tested yet, but heard price isn't worth it from those who tried
 
+## try hack me 
+
+https://tryhackme.com/r/path/outline/attackinganddefendingaws - seems nice but looks like it could be more comrepehensive
+
 ## others 
 
 https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/  - did not test 
