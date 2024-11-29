@@ -6,8 +6,7 @@
 
 | command (user data) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> sts get-caller-identity| ![image](https://github.com/user-attachments/assets/4e7a7911-6281-48b3-9345-62879dcb0194) | generic true to any command - you can specify the --profile at the start or finish of command , also from this command we get the username (it's after :user/USERNAME") we need the USERNAME to use it to leverage other commands below| 
-
+|aws --profile >PROFILENAME> sts get-caller-identity| ![image](https://github.com/user-attachments/assets/217a2bd1-34aa-486c-87d3-3af248d05036) | generic true to any command - you can specify the --profile at the start or finish of command , also from this command we get the username (it's after :user/USERNAME") we need the USERNAME to use it to leverage other commands below| 
 
 | command (user data) | IRL sample | comments | 
 |-----:|---------------:|---------------|
