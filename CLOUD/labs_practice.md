@@ -31,6 +31,10 @@ https://www.hackthebox.com/business/professional-labs/cloud-labs-blacksky - have
 
 https://tryhackme.com/r/path/outline/attackinganddefendingaws - seems nice but looks like it could be more comrepehensive
 
+## pentester academy 
+
+https://blog.pentesteracademy.com/pentester-academys-aws-cloud-security-labs-35b66a3c5904 - seems nice, I generally like their web labs, but for cloud (aws) does not seem comprehensive enough 
+
 ## others 
 
 https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/  - did not test 
