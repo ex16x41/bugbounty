@@ -29,7 +29,7 @@
 
 | command (policies versions) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> iam list-policy-versions --policy-arn >POLICYARN>|![image](https://github.com/user-attachments/assets/49a00e02-5768-47dc-8faa-7125108f42a7) | ARN can be pasted into its placeholder in the command with our without quatation marks, same output | 
+|aws --profile >PROFILENAME> iam list-policy-versions --policy-arn >POLICYARN>| ![image](https://github.com/user-attachments/assets/3aabec8f-50d1-424a-9a94-475e790c7498) | ARN can be pasted into its placeholder in the command with our without quatation marks, same output | 
 
 
 ## other enum options and commands here 
