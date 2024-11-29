@@ -30,3 +30,5 @@ https://training.hacktricks.xyz/ - best of them all in the market imho - trainin
 ## others 
 
 https://cyberwarfare.live/product/aws-cloud-red-team-specialist-carts/  - did not test 
+
+## best kind of practice imho - open your own aws acc > test everything from within
