@@ -31,6 +31,10 @@
 |-----:|---------------:|---------------|
 |aws --profile >PROFILENAME> iam list-policy-versions --policy-arn >POLICYARN>| ![image](https://github.com/user-attachments/assets/3aabec8f-50d1-424a-9a94-475e790c7498) | ARN can be pasted into its placeholder in the command with our without quatation marks, same output | 
 
+| command (policy version) | IRL sample | comments | 
+|-----:|---------------:|---------------|
+|aws --profile >PROFILENAME> iam get-policy-version --policy-arn >POLICYARN> --version-id >VERSIONID>| ![image](https://github.com/user-attachments/assets/f2f6cc78-d165-4c99-b0d8-63d5708ed096) | here we can see the full policy + version of our user| 
+
 
 ## other enum options and commands here 
 https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-services/aws-iam-enum 
