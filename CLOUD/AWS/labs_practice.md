@@ -21,7 +21,7 @@ http://flaws2.cloud/
 
 https://pwnedlabs.io/ - (tested only free, will test paid in future when possible) semi free, semi paid, red team + blue team practice, really nice + walktrough available
 
-## best of the best 
+## hacktricks
 
 https://training.hacktricks.xyz/ - best of them all in the market imho - training for ARTE + GCP + AZURE (coming soon)
 
