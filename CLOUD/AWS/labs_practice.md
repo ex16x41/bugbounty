@@ -22,7 +22,7 @@ https://pwnedlabs.io/ - (tested only free, will test paid in future when possibl
 
 ## hacktricks
 
-https://training.hacktricks.xyz/ - best of them all in the market imho - training for ARTE + GCP + AZURE (coming soon)
+https://training.hacktricks.xyz/ - best of them all in the market imho - like the OSCP of cloud - training for ARTE + GCP + AZURE (coming soon)
 
 ## others 
 
