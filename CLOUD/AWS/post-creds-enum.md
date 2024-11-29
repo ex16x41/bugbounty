@@ -20,12 +20,13 @@
 
 | command (policies)| IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> iam list-user-policies --user-name >USERNAME> | ![image](https://github.com/user-attachments/assets/6932f969-c90c-4169-a833-bc8c108fc5ad)| here we can sometimes see empty brackets, no policies to user, instead check attached (or other commands) | 
+|aws --profile >PROFILENAME> iam list-user-policies --user-name >USERNAME> |![image](https://github.com/user-attachments/assets/11d798d0-81c5-4abd-8436-68d98876715d)
+ | here we can sometimes see empty brackets, no policies to user, instead check attached (or other commands) | 
 
 
 | command (policies) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> iam list-attached-user-policies --user-name >USERNAME>| ![image](https://github.com/user-attachments/assets/4ebe35b0-52f0-4727-9ffc-9ed3ad1b9826) | from here we obtain policyARN, that we can pivot with this to next command (as below) | 
+|aws --profile >PROFILENAME> iam list-attached-user-policies --user-name >USERNAME>| ![image](https://github.com/user-attachments/assets/6932f969-c90c-4169-a833-bc8c108fc5ad) | from here we obtain policyARN, that we can pivot with this to next command (as below) | 
 
 | command (policies versions) | IRL sample | comments | 
 |-----:|---------------:|---------------|
