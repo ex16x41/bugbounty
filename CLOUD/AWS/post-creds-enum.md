@@ -20,7 +20,7 @@
 
 | command (policies)| IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> iam list-user-policies --user-name >USERNAME> |  ![image](https://github.com/user-attachments/assets/a6f5397f-9ab4-4227-aef5-ce85886a8d7e)| here we can sometimes see empty brackets, no policies to user, instead check attached (or other commands) | 
+|aws --profile >PROFILENAME> iam list-user-policies --user-name >USERNAME> | ![image](https://github.com/user-attachments/assets/1b326ce7-73cf-4b7a-82f1-d5d597cfc59b)| here we can sometimes see empty brackets, no policies to user, instead check attached (or other commands) | 
 
 
 | command (policies) | IRL sample | comments | 
