@@ -15,7 +15,7 @@
 
 | command (list users) | IRL sample | comments | 
 |-----:|---------------:|---------------|
-|aws --profile >PROFILENAME> iam list users| ![image](https://github.com/user-attachments/assets/f8038ce5-c25b-4851-a260-7e4a93fe3c3c) | if permissions allow this action you should see list of users (path/username/userid/arn/createdate) |   
+|aws --profile >PROFILENAME> iam list-users| ![image](https://github.com/user-attachments/assets/ed9a72c1-4adf-4c8c-ba11-f1ae780d161e)| if permissions allow this action you should see list of users (path/username/userid/arn/createdate) |   
 
 
 | command (policies)| IRL sample | comments | 
