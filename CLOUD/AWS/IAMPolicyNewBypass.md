@@ -1,4 +1,4 @@
-Discovered a method to bypass IAM policy restrictions on AWS Secrets Manager. By using direct API calls, secrets can be accessed even when policies enforce access only via the web console or AWS CLI—successfully bypassing StringNotLike conditions for aws:UserAgent.
+I discovered a method to bypass IAM policy restrictions on AWS Secrets Manager. By using direct API calls, secrets can be accessed even when policies enforce access only via the web console or AWS CLI—successfully bypassing StringNotLike conditions for aws:UserAgent.
 
 While API calls are well-documented in AWS as a general concept, this practical technique highlights a real-world vulnerability in IAM policy configurations. If policies allow viewing secret values of user (authenticated via credentials in aws cli), this method can universally bypass restrictions that block CLI requests.
 
